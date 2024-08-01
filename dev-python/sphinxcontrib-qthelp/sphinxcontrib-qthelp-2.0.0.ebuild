@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="sphinxcontrib-qthelp is a sphinx extension which outputs QtHelp documents"
 HOMEPAGE="None https://pypi.org/project/sphinxcontrib-qthelp/"
-SRC_URI="https://files.pythonhosted.org/packages/a6/67/f5c7df6457315877202f370450acb28626d033822eec1e8163600612b4ef/sphinxcontrib_qthelp-1.0.8.tar.gz -> sphinxcontrib_qthelp-1.0.8.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/68/bc/9104308fc285eb3e0b31b67688235db556cd5b0ef31d96f30e45f2e51cae/sphinxcontrib_qthelp-2.0.0.tar.gz -> sphinxcontrib_qthelp-2.0.0.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-python/namespace-sphinxcontrib[${PYTHON_USEDEP}]"
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/sphinxcontrib_qthelp-1.0.8"
+S="${WORKDIR}/sphinxcontrib_qthelp-2.0.0"

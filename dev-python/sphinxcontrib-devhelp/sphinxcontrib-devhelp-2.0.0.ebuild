@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION="sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp documents"
-HOMEPAGE=" https://pypi.org/project/sphinxcontrib-devhelp/"
-SRC_URI="https://files.pythonhosted.org/packages/c7/a1/80b7e9f677abc673cb9320bf255ad4e08931ccbc2e66bde4b59bad3809ad/sphinxcontrib_devhelp-1.0.6.tar.gz -> sphinxcontrib_devhelp-1.0.6.tar.gz"
+HOMEPAGE="None https://pypi.org/project/sphinxcontrib-devhelp/"
+SRC_URI="https://files.pythonhosted.org/packages/f6/d2/5beee64d3e4e747f316bae86b55943f51e82bb86ecd325883ef65741e7da/sphinxcontrib_devhelp-2.0.0.tar.gz -> sphinxcontrib_devhelp-2.0.0.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-python/namespace-sphinxcontrib[${PYTHON_USEDEP}]"
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/sphinxcontrib_devhelp-1.0.6"
+S="${WORKDIR}/sphinxcontrib_devhelp-2.0.0"
