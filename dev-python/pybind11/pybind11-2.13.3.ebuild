@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Seamless operability between C++11 and Python"
 HOMEPAGE="https://github.com/pybind/pybind11 https://pypi.org/project/pybind11/"
-SRC_URI="https://files.pythonhosted.org/packages/f5/93/2432663146193e5df82583fd880a7a5f05750b954b85f59bbb9137c54fd1/pybind11-2.13.2.tar.gz -> pybind11-2.13.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/b7/789a3404d89bc2f22cb54447dfe9ad24d91a74dfe8586d7728fd75881bb2/pybind11-2.13.3.tar.gz -> pybind11-2.13.3.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-cpp/eigen:3"
@@ -17,7 +17,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/pybind11-2.13.2"
+S="${WORKDIR}/pybind11-2.13.3"
 
 python_install() {
 	distutils-r1_python_install
