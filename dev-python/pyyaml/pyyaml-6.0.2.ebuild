@@ -16,14 +16,13 @@ DEPEND="
 	libyaml? ( dev-libs/libyaml )
 	libyaml? ( <dev-python/cython-3[${PYTHON_USEDEP}] )"
 RDEPEND="
-	python_targets_python2_7? ( dev-python/pyyaml-compat )
 	libyaml? ( dev-libs/libyaml )
 	libyaml? ( <dev-python/cython-3[${PYTHON_USEDEP}] )"
-IUSE="+libyaml examples python_targets_python2_7"
+IUSE="+libyaml examples"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/PyYAML-6.0.2"
+S="${WORKDIR}/pyyaml-6.0.2"
 
 python_configure_all() {
 	mydistutilsargs=( $(use_with libyaml) )
