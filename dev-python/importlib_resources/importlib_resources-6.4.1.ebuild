@@ -6,8 +6,8 @@ PYTHON_COMPAT=( pypy3 python3+ )
 inherit distutils-r1
 
 DESCRIPTION="Read resources from Python packages"
-HOMEPAGE="https://github.com/python/importlib_resources https://pypi.org/project/importlib-resources/"
-SRC_URI="https://files.pythonhosted.org/packages/c8/9d/6ee73859d6be81c6ea7ebac89655e92740296419bd37e5c8abdb5b62fd55/importlib_resources-6.4.0.tar.gz -> importlib_resources-6.4.0.tar.gz"
+HOMEPAGE="None https://pypi.org/project/importlib-resources/"
+SRC_URI="https://files.pythonhosted.org/packages/74/bf/94a97ce36de7ab40ad3def18427f941ebba1f8982f32fe960fb0b2a7f176/importlib_resources-6.4.1.tar.gz -> importlib_resources-6.4.1.tar.gz"
 
 DEPEND="
 	dev-python/toml[${PYTHON_USEDEP}]
@@ -19,6 +19,6 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/importlib_resources-6.4.0"
+S="${WORKDIR}/importlib_resources-6.4.1"
 
 distutils_enable_sphinx docs dev-python/rst-linker dev-python/jaraco-packaging
