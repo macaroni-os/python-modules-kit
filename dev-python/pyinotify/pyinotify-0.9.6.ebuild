@@ -1,27 +1,17 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
+EAPI=7
 
-PYTHON_COMPAT=( python{2_7,3_{4,5,6,7}} pypy pypy3 )
-PYTHON_REQ_USE="threads(+)"
-
+PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="Python module used for monitoring filesystems events"
-HOMEPAGE="http://trac.dbzteam.org/pyinotify https://pypi.org/project/pyinotify/"
-SRC_URI="http://seb.dbzteam.org/pub/pyinotify/releases/${P}.tar.gz"
+DESCRIPTION="Linux filesystem events monitoring"
+HOMEPAGE="http://github.com/seb-m/pyinotify https://pypi.org/project/pyinotify/"
+SRC_URI="https://files.pythonhosted.org/packages/e3/c0/fd5b18dde17c1249658521f69598f3252f11d9d7a980c5be8619970646e1/pyinotify-0.9.6.tar.gz -> pyinotify-0.9.6.tar.gz"
 
-LICENSE="MIT"
+DEPEND=""
+IUSE=""
 SLOT="0"
-KEYWORDS="alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 s390 sparc x86 ~amd64-linux ~x86-linux"
-IUSE="examples"
-
-DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
-RDEPEND=""
-
-python_install_all() {
-	use examples && local EXAMPLES=( python2/examples/. )
-	EXAMPLES+=( python3/examples/. )
-	distutils-r1_python_install_all
-}
+LICENSE="MIT"
+KEYWORDS="*"
+S="${WORKDIR}/pyinotify-0.9.6"
