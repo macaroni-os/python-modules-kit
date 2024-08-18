@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="Self-service finite-state machines for the programmer on the go"
-HOMEPAGE="https://github.com/glyph/Automat https://pypi.org/project/Automat/"
-SRC_URI="https://files.pythonhosted.org/packages/7a/7b/9c3d26d8a0416eefbc0428f168241b32657ca260fb7ef507596ff5c2f6c4/Automat-22.10.0.tar.gz -> Automat-22.10.0.tar.gz"
+HOMEPAGE="None https://pypi.org/project/Automat/"
+SRC_URI="https://files.pythonhosted.org/packages/60/b4/7002a0ac39e80a9e62f1228f60a8f7f4525a22cbaf804647a2ab8e0172d9/automat-24.8.0.tar.gz -> automat-24.8.0.tar.gz"
 
 DEPEND="
 	dev-python/attrs[${PYTHON_USEDEP}]
@@ -19,7 +19,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/automat-22.10.0"
+S="${WORKDIR}/automat-24.8.0"
 
 src_unpack() {
 	default
