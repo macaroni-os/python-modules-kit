@@ -122,13 +122,12 @@ DEPEND="
 	)
 	$(python_gen_cond_dep '>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}] >=dev-python/setuptools-rust-0.12.1[${PYTHON_USEDEP}]' -3)"
 RDEPEND="
-	python_targets_python2_7? ( dev-python/cryptography-compat )
 	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
 	virtual/python-enum34[${PYTHON_USEDEP}]
 	virtual/python-ipaddress[${PYTHON_USEDEP}]
 	>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}]
 	idna? ( >=dev-python/idna-2.1[${PYTHON_USEDEP}] )"
-IUSE="cpu_flags_x86_sse2 idna libressl python_targets_python2_7"
+IUSE="cpu_flags_x86_sse2 idna libressl"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
