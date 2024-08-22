@@ -38,7 +38,7 @@ cargo-xwin-0.16.5
 cargo-zigbuild-0.18.4
 cargo_metadata-0.18.1
 cbindgen-0.26.0
-cc-1.0.104
+cc-1.1.6
 cfb-0.9.0
 cfg-if-1.0.0
 charset-0.1.3
@@ -46,8 +46,8 @@ chumsky-0.9.3
 clap-4.5.7
 clap_builder-4.5.7
 clap_complete-4.5.5
-clap_complete_command-0.5.1
-clap_complete_nushell-0.1.11
+clap_complete_command-0.6.1
+clap_complete_nushell-4.5.2
 clap_derive-4.5.5
 clap_lex-0.7.1
 cli-table-0.4.7
@@ -156,10 +156,10 @@ num_enum-0.7.2
 num_enum_derive-0.7.2
 number_prefix-0.4.0
 once_cell-1.19.0
-openssl-0.10.64
+openssl-0.10.66
 openssl-macros-0.1.1
 openssl-probe-0.1.5
-openssl-sys-0.9.102
+openssl-sys-0.9.103
 option-ext-0.2.0
 os_pipe-1.2.0
 overload-0.1.1
@@ -167,8 +167,8 @@ parking_lot-0.12.3
 parking_lot_core-0.9.10
 paste-1.0.15
 path-slash-0.2.1
-pep440_rs-0.5.0
-pep508_rs-0.4.2
+pep440_rs-0.6.0
+pep508_rs-0.6.0
 percent-encoding-2.3.1
 pin-project-lite-0.2.14
 pin-utils-0.1.0
@@ -182,7 +182,7 @@ pretty_assertions-1.4.0
 proc-macro-crate-3.1.0
 proc-macro2-1.0.85
 psm-0.1.21
-pyproject-toml-0.10.0
+pyproject-toml-0.11.0
 python-pkginfo-0.6.2
 quote-1.0.36
 quoted_printable-0.5.0
@@ -246,7 +246,7 @@ subtle-2.5.0
 syn-1.0.109
 syn-2.0.66
 tar-0.4.41
-target-lexicon-0.12.14
+target-lexicon-0.12.15
 tempfile-3.10.1
 termcolor-1.4.1
 terminal_size-0.3.0
@@ -372,7 +372,7 @@ https://crates.io/api/v1/crates/cargo-xwin/0.16.5/download -> cargo-xwin-0.16.5.
 https://crates.io/api/v1/crates/cargo-zigbuild/0.18.4/download -> cargo-zigbuild-0.18.4.crate
 https://crates.io/api/v1/crates/cargo_metadata/0.18.1/download -> cargo_metadata-0.18.1.crate
 https://crates.io/api/v1/crates/cbindgen/0.26.0/download -> cbindgen-0.26.0.crate
-https://crates.io/api/v1/crates/cc/1.0.104/download -> cc-1.0.104.crate
+https://crates.io/api/v1/crates/cc/1.1.6/download -> cc-1.1.6.crate
 https://crates.io/api/v1/crates/cfb/0.9.0/download -> cfb-0.9.0.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.0/download -> cfg-if-1.0.0.crate
 https://crates.io/api/v1/crates/charset/0.1.3/download -> charset-0.1.3.crate
@@ -380,8 +380,8 @@ https://crates.io/api/v1/crates/chumsky/0.9.3/download -> chumsky-0.9.3.crate
 https://crates.io/api/v1/crates/clap/4.5.7/download -> clap-4.5.7.crate
 https://crates.io/api/v1/crates/clap_builder/4.5.7/download -> clap_builder-4.5.7.crate
 https://crates.io/api/v1/crates/clap_complete/4.5.5/download -> clap_complete-4.5.5.crate
-https://crates.io/api/v1/crates/clap_complete_command/0.5.1/download -> clap_complete_command-0.5.1.crate
-https://crates.io/api/v1/crates/clap_complete_nushell/0.1.11/download -> clap_complete_nushell-0.1.11.crate
+https://crates.io/api/v1/crates/clap_complete_command/0.6.1/download -> clap_complete_command-0.6.1.crate
+https://crates.io/api/v1/crates/clap_complete_nushell/4.5.2/download -> clap_complete_nushell-4.5.2.crate
 https://crates.io/api/v1/crates/clap_derive/4.5.5/download -> clap_derive-4.5.5.crate
 https://crates.io/api/v1/crates/clap_lex/0.7.1/download -> clap_lex-0.7.1.crate
 https://crates.io/api/v1/crates/cli-table/0.4.7/download -> cli-table-0.4.7.crate
@@ -490,10 +490,10 @@ https://crates.io/api/v1/crates/num_enum/0.7.2/download -> num_enum-0.7.2.crate
 https://crates.io/api/v1/crates/num_enum_derive/0.7.2/download -> num_enum_derive-0.7.2.crate
 https://crates.io/api/v1/crates/number_prefix/0.4.0/download -> number_prefix-0.4.0.crate
 https://crates.io/api/v1/crates/once_cell/1.19.0/download -> once_cell-1.19.0.crate
-https://crates.io/api/v1/crates/openssl/0.10.64/download -> openssl-0.10.64.crate
+https://crates.io/api/v1/crates/openssl/0.10.66/download -> openssl-0.10.66.crate
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
 https://crates.io/api/v1/crates/openssl-probe/0.1.5/download -> openssl-probe-0.1.5.crate
-https://crates.io/api/v1/crates/openssl-sys/0.9.102/download -> openssl-sys-0.9.102.crate
+https://crates.io/api/v1/crates/openssl-sys/0.9.103/download -> openssl-sys-0.9.103.crate
 https://crates.io/api/v1/crates/option-ext/0.2.0/download -> option-ext-0.2.0.crate
 https://crates.io/api/v1/crates/os_pipe/1.2.0/download -> os_pipe-1.2.0.crate
 https://crates.io/api/v1/crates/overload/0.1.1/download -> overload-0.1.1.crate
@@ -501,8 +501,8 @@ https://crates.io/api/v1/crates/parking_lot/0.12.3/download -> parking_lot-0.12.
 https://crates.io/api/v1/crates/parking_lot_core/0.9.10/download -> parking_lot_core-0.9.10.crate
 https://crates.io/api/v1/crates/paste/1.0.15/download -> paste-1.0.15.crate
 https://crates.io/api/v1/crates/path-slash/0.2.1/download -> path-slash-0.2.1.crate
-https://crates.io/api/v1/crates/pep440_rs/0.5.0/download -> pep440_rs-0.5.0.crate
-https://crates.io/api/v1/crates/pep508_rs/0.4.2/download -> pep508_rs-0.4.2.crate
+https://crates.io/api/v1/crates/pep440_rs/0.6.0/download -> pep440_rs-0.6.0.crate
+https://crates.io/api/v1/crates/pep508_rs/0.6.0/download -> pep508_rs-0.6.0.crate
 https://crates.io/api/v1/crates/percent-encoding/2.3.1/download -> percent-encoding-2.3.1.crate
 https://crates.io/api/v1/crates/pin-project-lite/0.2.14/download -> pin-project-lite-0.2.14.crate
 https://crates.io/api/v1/crates/pin-utils/0.1.0/download -> pin-utils-0.1.0.crate
@@ -516,7 +516,7 @@ https://crates.io/api/v1/crates/pretty_assertions/1.4.0/download -> pretty_asser
 https://crates.io/api/v1/crates/proc-macro-crate/3.1.0/download -> proc-macro-crate-3.1.0.crate
 https://crates.io/api/v1/crates/proc-macro2/1.0.85/download -> proc-macro2-1.0.85.crate
 https://crates.io/api/v1/crates/psm/0.1.21/download -> psm-0.1.21.crate
-https://crates.io/api/v1/crates/pyproject-toml/0.10.0/download -> pyproject-toml-0.10.0.crate
+https://crates.io/api/v1/crates/pyproject-toml/0.11.0/download -> pyproject-toml-0.11.0.crate
 https://crates.io/api/v1/crates/python-pkginfo/0.6.2/download -> python-pkginfo-0.6.2.crate
 https://crates.io/api/v1/crates/quote/1.0.36/download -> quote-1.0.36.crate
 https://crates.io/api/v1/crates/quoted_printable/0.5.0/download -> quoted_printable-0.5.0.crate
@@ -580,7 +580,7 @@ https://crates.io/api/v1/crates/subtle/2.5.0/download -> subtle-2.5.0.crate
 https://crates.io/api/v1/crates/syn/1.0.109/download -> syn-1.0.109.crate
 https://crates.io/api/v1/crates/syn/2.0.66/download -> syn-2.0.66.crate
 https://crates.io/api/v1/crates/tar/0.4.41/download -> tar-0.4.41.crate
-https://crates.io/api/v1/crates/target-lexicon/0.12.14/download -> target-lexicon-0.12.14.crate
+https://crates.io/api/v1/crates/target-lexicon/0.12.15/download -> target-lexicon-0.12.15.crate
 https://crates.io/api/v1/crates/tempfile/3.10.1/download -> tempfile-3.10.1.crate
 https://crates.io/api/v1/crates/termcolor/1.4.1/download -> termcolor-1.4.1.crate
 https://crates.io/api/v1/crates/terminal_size/0.3.0/download -> terminal_size-0.3.0.crate
@@ -666,7 +666,7 @@ https://crates.io/api/v1/crates/zerocopy-derive/0.7.34/download -> zerocopy-deri
 https://crates.io/api/v1/crates/zeroize/1.8.1/download -> zeroize-1.8.1.crate
 https://crates.io/api/v1/crates/zip/0.6.6/download -> zip-0.6.6.crate
 https://crates.io/api/v1/crates/zip/1.1.4/download -> zip-1.1.4.crate
-https://files.pythonhosted.org/packages/80/da/a4bbd6e97f3645f4ebd725321aa235e22e31037dfd92caf4539f721c0a5a/maturin-1.7.0.tar.gz -> maturin-1.7.0.tar.gz
+https://files.pythonhosted.org/packages/1d/ec/1f688d6ad82a568fd7c239f1c7a130d3fc2634977df4ef662ee0ac58a153/maturin-1.7.1.tar.gz -> maturin-1.7.1.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -690,4 +690,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.7.0"
+S="${WORKDIR}/maturin-1.7.1"
