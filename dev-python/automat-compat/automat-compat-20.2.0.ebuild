@@ -21,16 +21,6 @@ LICENSE="MIT"
 KEYWORDS="*"
 S="${WORKDIR}/automat-20.2.0"
 
-src_unpack() {
-	default
-	mv ${WORKDIR}/A* ${S} || die
-}
-python_prepare_all() {
-	# avoid a setuptools_scm dependency
-	sed -r -i "s:use_scm_version=True:version='${PV}': ;
-		s:[\"']setuptools[_-]scm[\"'](,|)::" setup.py || die
-	distutils-r1_python_prepare_all
-}
 pkg_postinst() {
 	einfo "For additional visualization functionality install these optional dependencies"
 	einfo "    >=dev-python/twisted-16.1.1"
