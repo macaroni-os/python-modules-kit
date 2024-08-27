@@ -14,7 +14,7 @@ inherit distutils-r1 flag-o-matic fortran-2 multiprocessing toolchain-funcs
 
 DESCRIPTION="Fast array and numerical python library"
 HOMEPAGE="https://numpy.org/"
-SRC_URI="https://files.pythonhosted.org/packages/1c/8a/0db635b225d2aa2984e405dc14bd2b0c324a0c312ea1bc9d283f2b83b038/numpy-2.0.1.tar.gz -> numpy-2.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a9/75/10dd1f8116a8b796cb2c737b674e02d02e80454bda953fa7e65d8c12b016/numpy-2.0.2.tar.gz -> numpy-2.0.2.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
