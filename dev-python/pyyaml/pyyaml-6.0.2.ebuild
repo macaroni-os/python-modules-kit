@@ -13,11 +13,9 @@ https://github.com/yaml/pyyaml
 SRC_URI="https://files.pythonhosted.org/packages/54/ed/79a089b6be93607fa5cdaedf301d7dfb23af5f25c398d5ead2525b063e17/pyyaml-6.0.2.tar.gz -> pyyaml-6.0.2.tar.gz"
 
 DEPEND="
-	libyaml? ( dev-libs/libyaml )
-	libyaml? ( <dev-python/cython-3[${PYTHON_USEDEP}] )"
+	libyaml? ( dev-libs/libyaml )"
 RDEPEND="
-	libyaml? ( dev-libs/libyaml )
-	libyaml? ( <dev-python/cython-3[${PYTHON_USEDEP}] )"
+	libyaml? ( dev-libs/libyaml )"
 IUSE="+libyaml examples"
 SLOT="0"
 LICENSE="MIT"
