@@ -12,10 +12,9 @@ SRC_URI="https://files.pythonhosted.org/packages/ed/55/39036716d19cab0747a5020fc
 
 DEPEND=""
 RDEPEND="
-	python_targets_python2_7? ( dev-python/jinja-compat )
 	!dev-python/jinja:compat
 	dev-python/markupsafe[${PYTHON_USEDEP}]"
-IUSE="examples python_targets_python2_7"
+IUSE="examples"
 RESTRICT="test"
 SLOT="0"
 LICENSE="BSD"

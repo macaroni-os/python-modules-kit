@@ -11,10 +11,9 @@ SRC_URI="https://files.pythonhosted.org/packages/f3/9e/225a41452f2d9418d89be5e32
 
 DEPEND=""
 RDEPEND="
-	python_targets_python2_7? ( www-servers/tornado-compat )
 	dev-python/pycurl[${PYTHON_USEDEP}]
 	dev-python/twisted[${PYTHON_USEDEP}]"
-IUSE="python_targets_python2_7"
+IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"

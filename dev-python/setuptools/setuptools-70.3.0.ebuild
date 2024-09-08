@@ -13,9 +13,8 @@ SRC_URI="https://files.pythonhosted.org/packages/65/d8/10a70e86f6c28ae59f101a9de
 
 DEPEND="
 	app-arch/unzip"
-RDEPEND="python_targets_python2_7? ( dev-python/setuptools-compat )"
 PDEPEND=">=dev-python/certifi-2016.9.26[${PYTHON_USEDEP}]"
-IUSE="python_targets_python2_7"
+IUSE=""
 RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"

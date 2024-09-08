@@ -10,8 +10,7 @@ HOMEPAGE="https://github.com/dvarrazzo/py-setproctitle https://pypi.org/project/
 SRC_URI="https://files.pythonhosted.org/packages/ff/e1/b16b16a1aa12174349d15b73fd4b87e641a8ae3fb1163e80938dbbf6ae98/setproctitle-1.3.3.tar.gz -> setproctitle-1.3.3.tar.gz"
 
 DEPEND=""
-RDEPEND="python_targets_python2_7? ( dev-python/setproctitle-compat )"
-IUSE="python_targets_python2_7"
+IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"

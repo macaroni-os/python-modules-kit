@@ -13,9 +13,8 @@ DEPEND="
 	dev-python/idna[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep 'dev-python/cryptography[${PYTHON_USEDEP}]' -3)"
 RDEPEND="
-	python_targets_python2_7? ( dev-python/dnspython-compat )
 	${DEPEND}"
-IUSE="python_targets_python2_7"
+IUSE=""
 SLOT="0"
 LICENSE="ISC"
 KEYWORDS="*"

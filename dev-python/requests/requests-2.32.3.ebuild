@@ -11,7 +11,6 @@ SRC_URI="https://files.pythonhosted.org/packages/63/70/2bf7780ad2d390a8d301ad0b5
 
 DEPEND=""
 RDEPEND="
-	python_targets_python2_7? ( dev-python/requests-compat )
 	>=dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
 	dev-python/idna[${PYTHON_USEDEP}]
@@ -19,7 +18,7 @@ RDEPEND="
 	$(python_gen_cond_dep 'dev-python/charset_normalizer[${PYTHON_USEDEP}]' -3)
 	socks5? ( >=dev-python/PySocks-1.5.6[${PYTHON_USEDEP}] )
 	ssl? ( >=dev-python/cryptography-1.3.4[${PYTHON_USEDEP}] >=dev-python/pyopenssl-0.14[${PYTHON_USEDEP}] )"
-IUSE="+ssl python_targets_python2_7 socks5"
+IUSE="+ssl socks5"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"

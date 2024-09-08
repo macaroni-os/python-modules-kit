@@ -10,10 +10,8 @@ HOMEPAGE="None https://pypi.org/project/packaging/"
 SRC_URI="https://files.pythonhosted.org/packages/df/9e/d1a7217f69310c1db8fdf8ab396229f55a699ce34a203691794c5d1cad0c/packaging-21.3.tar.gz -> packaging-21.3.tar.gz"
 
 DEPEND=""
-RDEPEND="
-	python_targets_python2_7? ( dev-python/packaging-compat )
-	<dev-python/pyparsing-3[${PYTHON_USEDEP}]"
-IUSE="python_targets_python2_7"
+RDEPEND="<dev-python/pyparsing-3[${PYTHON_USEDEP}]"
+IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0 BSD"
 KEYWORDS="*"

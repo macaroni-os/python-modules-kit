@@ -12,10 +12,8 @@ SRC_URI="https://files.pythonhosted.org/packages/96/2d/02d4312c973c6050a18b314a5
 
 DEPEND="
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]"
-RDEPEND="
-	python_targets_python2_7? ( dev-python/pluggy-compat )
-	$(python_gen_cond_dep 'dev-python/importlib_metadata[${PYTHON_USEDEP}]' python3_7)"
-IUSE="python_targets_python2_7"
+RDEPEND="$(python_gen_cond_dep 'dev-python/importlib_metadata[${PYTHON_USEDEP}]' python3_7)"
+IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="next"

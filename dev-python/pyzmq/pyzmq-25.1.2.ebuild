@@ -12,11 +12,10 @@ SRC_URI="https://files.pythonhosted.org/packages/3a/33/1a3683fc9a4bd64d8ccc0290d
 
 DEPEND="dev-python/cython[${PYTHON_USEDEP}]"
 RDEPEND="
-	python_targets_python2_7? ( dev-python/pyzmq-compat )
 	>=net-libs/zeromq-4.2.2-r2:=[drafts]
 	dev-python/py[${PYTHON_USEDEP}]
 	dev-python/cffi[${PYTHON_USEDEP}]"
-IUSE="python_targets_python2_7"
+IUSE=""
 SLOT="0"
 LICENSE="LGPL-3"
 KEYWORDS="*"

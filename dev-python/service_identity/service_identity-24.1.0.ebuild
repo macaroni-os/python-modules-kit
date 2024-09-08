@@ -12,14 +12,13 @@ SRC_URI="https://files.pythonhosted.org/packages/38/d2/2ac20fd05f1b6fce31986536d
 
 DEPEND=""
 RDEPEND="
-	python_targets_python2_7? ( dev-python/service_identity-compat )
 	dev-python/pyasn1[${PYTHON_USEDEP}]
 	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
 	dev-python/pyopenssl[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
-IUSE="python_targets_python2_7"
+IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
