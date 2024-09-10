@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
 DESCRIPTION="MessagePack serializer"
-HOMEPAGE=" https://pypi.org/project/msgpack/"
+HOMEPAGE="None https://pypi.org/project/msgpack/"
 SRC_URI="https://files.pythonhosted.org/packages/74/0a/de673c1c987f5779b65ef69052331ec0b0ebd22958bda77a8284be831964/msgpack-0.6.2.tar.gz -> msgpack-0.6.2.tar.gz"
 
 DEPEND=""
