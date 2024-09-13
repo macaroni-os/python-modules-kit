@@ -15,7 +15,7 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/SQLAlchemy-1.4.7"
+S="${WORKDIR}/sqlalchemy-1.4.7"
 
 post_src_install() {
 	rm -rf ${D}/usr/bin
