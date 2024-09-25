@@ -658,7 +658,7 @@ https://crates.io/api/v1/crates/zerocopy/0.7.34/download -> zerocopy-0.7.34.crat
 https://crates.io/api/v1/crates/zerocopy-derive/0.7.34/download -> zerocopy-derive-0.7.34.crate
 https://crates.io/api/v1/crates/zeroize/1.8.1/download -> zeroize-1.8.1.crate
 https://crates.io/api/v1/crates/zip/0.6.6/download -> zip-0.6.6.crate
-https://files.pythonhosted.org/packages/35/fa/001a50b62c20454f6b2366faaf0f4c401d645cf9fe3bcb17e9e3c1576680/maturin-1.7.2.tar.gz -> maturin-1.7.2.tar.gz
+https://files.pythonhosted.org/packages/b5/5d/bbfeaa60a5d62cd70b7c28e21e44d4391b33b32bb152e661398c10b0c00e/maturin-1.7.3.tar.gz -> maturin-1.7.3.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -682,4 +682,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.7.2"
+S="${WORKDIR}/maturin-1.7.3"
