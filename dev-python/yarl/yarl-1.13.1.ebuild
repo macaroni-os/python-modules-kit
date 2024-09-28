@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Yet another URL library"
 HOMEPAGE="https://github.com/aio-libs/yarl/"
-SRC_URI="https://files.pythonhosted.org/packages/27/6e/b26e831b6abede32fba3763131eb2c52987f574277daa65e10a5fda6021c/yarl-1.13.0.tar.gz -> yarl-1.13.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/11/2b8334f4192646677a2e7da435670d043f536088af943ec242f31453e5ba/yarl-1.13.1.tar.gz -> yarl-1.13.1.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
