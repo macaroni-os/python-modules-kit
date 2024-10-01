@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
 HOMEPAGE="https://github.com/Textualize/rich https://pypi.org/project/rich/"
-SRC_URI="https://files.pythonhosted.org/packages/92/76/40f084cb7db51c9d1fa29a7120717892aeda9a7711f6225692c957a93535/rich-13.8.1.tar.gz -> rich-13.8.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/78/87d00a1df7c457ad9aa0139f01b8a11c67209f27f927c503b0109bf2ed6c/rich-13.9.1.tar.gz -> rich-13.9.1.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -17,4 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/rich-13.8.1"
+S="${WORKDIR}/rich-13.9.1"
