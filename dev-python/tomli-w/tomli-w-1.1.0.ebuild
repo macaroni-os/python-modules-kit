@@ -7,12 +7,12 @@ DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION="A lil' TOML writer"
-HOMEPAGE=" https://pypi.org/project/tomli-w/"
-SRC_URI="https://files.pythonhosted.org/packages/49/05/6bf21838623186b91aedbda06248ad18f03487dc56fbc20e4db384abde6c/tomli_w-1.0.0.tar.gz -> tomli_w-1.0.0.tar.gz"
+HOMEPAGE="None https://pypi.org/project/tomli-w/"
+SRC_URI="https://files.pythonhosted.org/packages/d4/19/b65f1a088ee23e37cdea415b357843eca8b1422a7b11a9eee6e35d4ec273/tomli_w-1.1.0.tar.gz -> tomli_w-1.1.0.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/tomli_w-1.0.0"
+S="${WORKDIR}/tomli_w-1.1.0"
