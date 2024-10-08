@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="A python wrapper for the GitLab API"
 HOMEPAGE="None https://pypi.org/project/python-gitlab/"
-SRC_URI="https://files.pythonhosted.org/packages/7d/b7/dd45501fb727582295ec217d0058891762e19b7998426d6c70de7bb942d0/python_gitlab-4.12.2.tar.gz -> python_gitlab-4.12.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c4/ea/e2cde926d63526935c1df259177371a195089b631d67a577fe5c39fbc7e1/python_gitlab-4.13.0.tar.gz -> python_gitlab-4.13.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/python_gitlab-4.12.2"
+S="${WORKDIR}/python_gitlab-4.13.0"
