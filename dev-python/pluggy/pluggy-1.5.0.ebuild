@@ -16,5 +16,5 @@ RDEPEND="$(python_gen_cond_dep 'dev-python/importlib_metadata[${PYTHON_USEDEP}]'
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
-KEYWORDS="next"
+KEYWORDS="*"
 S="${WORKDIR}/pluggy-1.5.0"

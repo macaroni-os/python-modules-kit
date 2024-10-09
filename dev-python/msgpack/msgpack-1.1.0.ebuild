@@ -13,7 +13,7 @@ DEPEND=""
 IUSE="native-extensions"
 SLOT="0"
 LICENSE="Apache-2.0"
-KEYWORDS="next"
+KEYWORDS="*"
 S="${WORKDIR}/msgpack-1.1.0"
 
 python_prepare_all() {
