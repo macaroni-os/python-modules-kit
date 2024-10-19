@@ -34,7 +34,6 @@ src_unpack() {
 }
 src_prepare() {
 	default
-	# localhost has a better chance of being in /etc/hosts
-	sed -i -e 's:socket[.]gethostname():"localhost":' tests/unit/api_test.py || die
+	sed -i -e 's|^license =.*|license = {text = "Apache-2.0"}|g' pyproject.toml
 	distutils-r1_src_prepare
 }
