@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Optional static typing for Python"
 HOMEPAGE="https://www.mypy-lang.org/ https://pypi.org/project/mypy/"
-SRC_URI="https://files.pythonhosted.org/packages/f9/70/196a3339459fe22296ac9a883bbd998fcaf0db3e8d9a54cf4f53b722cad4/mypy-1.12.0.tar.gz -> mypy-1.12.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/17/03/744330105a74dc004578f47ec27e1bf66b1dd5664ea444d18423e41343bd/mypy-1.12.1.tar.gz -> mypy-1.12.1.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -19,4 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/mypy-1.12.0"
+S="${WORKDIR}/mypy-1.12.1"
