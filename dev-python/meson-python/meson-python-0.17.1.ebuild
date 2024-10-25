@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="standalone"
 inherit distutils-r1
 
 DESCRIPTION="Meson Python build backend (PEP 517)"
-HOMEPAGE="https://github.com/mesonbuild/meson-python https://pypi.org/project/meson-python/"
-SRC_URI="https://files.pythonhosted.org/packages/72/ea/a7895f15512cae5b3b5be988d38531ad3be74b06f56f0cdcee3ffcf86108/meson_python-0.17.0.tar.gz -> meson_python-0.17.0.tar.gz"
+HOMEPAGE="None https://pypi.org/project/meson-python/"
+SRC_URI="https://files.pythonhosted.org/packages/67/66/91d242ea8dd1729addd36069318ba2cd03874872764f316c3bb51b633ed2/meson_python-0.17.1.tar.gz -> meson_python-0.17.1.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -20,4 +20,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/meson_python-0.17.0"
+S="${WORKDIR}/meson_python-0.17.1"
