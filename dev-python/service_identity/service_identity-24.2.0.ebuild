@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="hatchling"
 inherit distutils-r1
 
 DESCRIPTION="Service identity verification for pyOpenSSL & cryptography."
-HOMEPAGE=" https://pypi.org/project/service-identity/"
-SRC_URI="https://files.pythonhosted.org/packages/38/d2/2ac20fd05f1b6fce31986536da4caeac51ed2e1bb25d4a7d73ca4eccdfab/service_identity-24.1.0.tar.gz -> service_identity-24.1.0.tar.gz"
+HOMEPAGE="None https://pypi.org/project/service-identity/"
+SRC_URI="https://files.pythonhosted.org/packages/07/a5/dfc752b979067947261dbbf2543470c58efe735c3c1301dd870ef27830ee/service_identity-24.2.0.tar.gz -> service_identity-24.2.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -23,4 +23,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/service_identity-24.1.0"
+S="${WORKDIR}/service_identity-24.2.0"
