@@ -7,12 +7,12 @@ DISTUTILS_USE_PEP517="standalone"
 inherit distutils-r1
 
 DESCRIPTION="Simplified packaging of Python modules (core module)"
-HOMEPAGE=" https://pypi.org/project/flit-core/"
-SRC_URI="https://files.pythonhosted.org/packages/c4/e6/c1ac50fe3eebb38a155155711e6e864e254ce4b6e17fe2429b4c4d5b9e80/flit_core-3.9.0.tar.gz -> flit_core-3.9.0.tar.gz"
+HOMEPAGE="None https://pypi.org/project/flit-core/"
+SRC_URI="https://files.pythonhosted.org/packages/52/92/89cceb9c49f3e6c72091304636c5ebc2fc48c546742bbf8a6a474e48e666/flit_core-3.10.0.tar.gz -> flit_core-3.10.0.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/flit_core-3.9.0"
+S="${WORKDIR}/flit_core-3.10.0"
