@@ -19,7 +19,8 @@ SRC_URI="https://files.pythonhosted.org/packages/a9/75/10dd1f8116a8b796cb2c737b6
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="*"
-IUSE="lapack"
+# As described on macaroni-os/mark-issues#189 we need lapack for building.
+IUSE="+lapack"
 
 RDEPEND="
 	lapack? (
