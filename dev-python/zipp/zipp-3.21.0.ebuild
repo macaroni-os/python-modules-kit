@@ -13,10 +13,9 @@ SRC_URI="https://files.pythonhosted.org/packages/3f/50/bad581df71744867e9468ebd0
 DEPEND="
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 RDEPEND="
-	python_targets_python2_7? ( dev-python/zipp-compat )
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]"
-IUSE="python_targets_python2_7"
+IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
