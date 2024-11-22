@@ -11,10 +11,9 @@ SRC_URI="https://files.pythonhosted.org/packages/fa/0b/29bc5a230948bf209d3ed3165
 
 DEPEND=""
 RDEPEND="
-	python_targets_python2_7? ( dev-python/mako-compat )
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]"
-IUSE="python_targets_python2_7"
+IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"

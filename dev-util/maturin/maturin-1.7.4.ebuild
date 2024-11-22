@@ -661,22 +661,7 @@ https://crates.io/api/v1/crates/zip/0.6.6/download -> zip-0.6.6.crate
 https://files.pythonhosted.org/packages/51/28/31a650d9209d873b6aec759c944bd284155154d7a01f7f541786d7c435ca/maturin-1.7.4.tar.gz -> maturin-1.7.4.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
-DEPEND="
-	dev-python/s[${PYTHON_USEDEP}]
-	dev-python/e[${PYTHON_USEDEP}]
-	dev-python/t[${PYTHON_USEDEP}]
-	dev-python/u[${PYTHON_USEDEP}]
-	dev-python/p[${PYTHON_USEDEP}]
-	dev-python/t[${PYTHON_USEDEP}]
-	dev-python/o[${PYTHON_USEDEP}]
-	dev-python/o[${PYTHON_USEDEP}]
-	dev-python/l[${PYTHON_USEDEP}]
-	dev-python/s[${PYTHON_USEDEP}]
-	dev-python/-[${PYTHON_USEDEP}]
-	dev-python/r[${PYTHON_USEDEP}]
-	dev-python/u[${PYTHON_USEDEP}]
-	dev-python/s[${PYTHON_USEDEP}]
-	dev-python/t[${PYTHON_USEDEP}]"
+DEPEND="dev-python/setuptools-rust[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/tomli[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"

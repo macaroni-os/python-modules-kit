@@ -11,11 +11,10 @@ SRC_URI="https://files.pythonhosted.org/packages/5e/4c/3c3faee9f554d753ee428bef3
 
 DEPEND=""
 RDEPEND="
-	python_targets_python2_7? ( dev-python/fixtures-compat )
 	dev-python/pbr[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/testtools[${PYTHON_USEDEP}]"
-IUSE="python_targets_python2_7"
+IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0 BSD"
 KEYWORDS="*"

@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy )
+PYTHON_COMPAT=( python3+ pypy )
 inherit distutils-r1
 
 DESCRIPTION="Read/rewrite/write Python ASTs"

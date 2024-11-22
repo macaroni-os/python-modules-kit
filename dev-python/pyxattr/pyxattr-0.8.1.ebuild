@@ -10,10 +10,8 @@ HOMEPAGE="https://pyxattr.k1024.org"
 SRC_URI="https://files.pythonhosted.org/packages/97/d1/7b85f2712168dfa26df6471082403013f3f815f3239aee3def17b6fd69ee/pyxattr-0.8.1.tar.gz -> pyxattr-0.8.1.tar.gz"
 
 DEPEND="sys-apps/attr:="
-RDEPEND="
-	python_targets_python2_7? ( dev-python/pyxattr-compat )
-	sys-apps/attr:="
-IUSE="python_targets_python2_7"
+RDEPEND="sys-apps/attr:="
+IUSE=""
 SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"

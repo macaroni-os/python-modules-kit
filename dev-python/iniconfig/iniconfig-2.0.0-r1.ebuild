@@ -13,8 +13,7 @@ SRC_URI="https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a82206
 DEPEND="
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
 	dev-python/hatch-vcs[${PYTHON_USEDEP}]"
-RDEPEND="python_targets_python2_7? ( dev-python/iniconfig-compat )"
-IUSE="python_targets_python2_7"
+IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"

@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy pypy3 )
+PYTHON_COMPAT=( python3+ pypy pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="Useful extra bits for Python - things that shold be in the standard library"

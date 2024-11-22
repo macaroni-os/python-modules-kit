@@ -10,10 +10,8 @@ HOMEPAGE="https://pypi.org/project/zstandard/ https://github.com/indygreg/python
 SRC_URI="https://files.pythonhosted.org/packages/a7/b7/0fe8fb6390309f29a3a76c439dd08a73c05473bbaafa7117596ded319f84/zstandard-0.18.0.tar.gz -> zstandard-0.18.0.tar.gz"
 
 DEPEND="test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
-RDEPEND="
-	python_targets_python2_7? ( dev-python/zstandard-compat )
-	dev-python/cffi:=[${PYTHON_USEDEP}]"
-IUSE="python_targets_python2_7 test"
+RDEPEND="dev-python/cffi:=[${PYTHON_USEDEP}]"
+IUSE="test"
 RESTRICT="!test? ( test )"
 SLOT="0"
 LICENSE="BSD"

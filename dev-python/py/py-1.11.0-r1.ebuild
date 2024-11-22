@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy{,3} )
+PYTHON_COMPAT=( python3+ pypy{,3} )
 inherit distutils-r1
 
 DESCRIPTION="library with cross-python path, ini-parsing, io, code, log facilities"

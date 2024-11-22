@@ -12,10 +12,8 @@ SRC_URI="https://files.pythonhosted.org/packages/6a/05/a543317ac62cf72e98dc40de5
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/pbr[${PYTHON_USEDEP}]"
-RDEPEND="
-	python_targets_python2_7? ( dev-python/testtools-compat )
-	dev-python/pbr[${PYTHON_USEDEP}]"
-IUSE="python_targets_python2_7"
+RDEPEND="dev-python/pbr[${PYTHON_USEDEP}]"
+IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"

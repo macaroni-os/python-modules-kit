@@ -11,7 +11,6 @@ SRC_URI="https://files.pythonhosted.org/packages/8b/6c/62bbd536103af674e227c41a8
 
 DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 RDEPEND="
-	python_targets_python2_7? ( dev-python/pytest-compat )
 	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
 	dev-python/iniconfig[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
@@ -20,7 +19,7 @@ RDEPEND="
 	>=dev-python/py-1.8.2[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep 'dev-python/importlib_metadata[${PYTHON_USEDEP}]' -2 pypy3 python3_6 python3_7)"
-IUSE="python_targets_python2_7"
+IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"

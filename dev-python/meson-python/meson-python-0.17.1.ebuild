@@ -10,10 +10,10 @@ DESCRIPTION="Meson Python build backend (PEP 517)"
 HOMEPAGE="None https://pypi.org/project/meson-python/"
 SRC_URI="https://files.pythonhosted.org/packages/67/66/91d242ea8dd1729addd36069318ba2cd03874872764f316c3bb51b633ed2/meson_python-0.17.1.tar.gz -> meson_python-0.17.1.tar.gz"
 
-DEPEND=""
+DEPEND="dev-util/meson"
 RDEPEND="
 	dev-util/patchelf
-	dev-python/meson[${PYTHON_USEDEP}]
+	dev-util/meson
 	dev-python/pyproject-metadata[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]"
 IUSE=""

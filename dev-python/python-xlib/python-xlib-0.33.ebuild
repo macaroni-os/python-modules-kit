@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy3 )
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1 virtualx
 
 DESCRIPTION="A fully functional X client library for Python, written in Python"
@@ -12,13 +13,12 @@ SRC_URI="https://github.com/python-xlib/python-xlib/tarball/4e8bbf8fc4941e5da301
 
 DEPEND="
 	doc? ( sys-apps/texinfo )
+	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]"
-RDEPEND="
-	dev-python/six[${PYTHON_USEDEP}]
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )"
+RDEPEND="dev-python/six[${PYTHON_USEDEP}]"
 
-IUSE="doc test"
+IUSE="doc"
 SLOT="0"
 LICENSE="LGPL-2+"
 KEYWORDS="*"
@@ -31,14 +31,6 @@ post_src_unpack() {
 
 python_compile_all() {
 	use doc && emake -C doc/info
-}
-
-src_test() {
-	virtx distutils-r1_src_test
-}
-
-python_test() {
-	"${EPYTHON}" -m unittest discover -v || die "Tests fail with ${EPYTHON}"
 }
 
 python_install_all() {

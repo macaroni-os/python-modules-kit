@@ -12,10 +12,9 @@ SRC_URI="https://files.pythonhosted.org/packages/1a/35/b62a3139f908c68b69aac6a6a
 
 DEPEND=""
 RDEPEND="
-	python_targets_python2_7? ( dev-python/pymongo-compat )
 	dev-python/hatch-requirements-txt[${PYTHON_USEDEP}]
 	kerberos? ( dev-python/pykerberos[${PYTHON_USEDEP}] )"
-IUSE="kerberos python_targets_python2_7"
+IUSE="kerberos"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"

@@ -12,11 +12,10 @@ SRC_URI="https://files.pythonhosted.org/packages/37/72/e8d66150c4fcace3c0a450466
 
 DEPEND=""
 RDEPEND="
-	python_targets_python2_7? ( dev-python/flake8-compat )
 	dev-python/pyflakes[${PYTHON_USEDEP}]
 	dev-python/pycodestyle[${PYTHON_USEDEP}]"
 PDEPEND="dev-python/mccabe[${PYTHON_USEDEP}]"
-IUSE="python_targets_python2_7"
+IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"

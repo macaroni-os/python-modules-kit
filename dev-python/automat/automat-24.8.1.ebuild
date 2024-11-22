@@ -13,9 +13,8 @@ DEPEND="
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 RDEPEND="
-	python_targets_python2_7? ( dev-python/automat-compat )
 	${DEPEND}"
-IUSE="python_targets_python2_7"
+IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
