@@ -35,7 +35,7 @@ cargo-platform-0.1.8
 cargo-xwin-0.16.5
 cargo-zigbuild-0.19.4
 cargo_metadata-0.18.1
-cbindgen-0.26.0
+cbindgen-0.27.0
 cc-1.2.1
 cfb-0.9.0
 cfg-if-1.0.0
@@ -107,7 +107,6 @@ getrandom-0.2.15
 glob-0.3.1
 globset-0.4.15
 goblin-0.9.2
-hashbrown-0.12.3
 hashbrown-0.14.5
 heck-0.4.1
 heck-0.5.0
@@ -127,7 +126,6 @@ icu_provider_macros-1.5.0
 idna-1.0.3
 idna_adapter-1.2.0
 ignore-0.4.23
-indexmap-1.9.3
 indexmap-2.5.0
 indicatif-0.17.8
 indoc-2.0.5
@@ -153,7 +151,7 @@ memchr-2.7.2
 mimalloc-0.1.42
 mime-0.3.17
 mime_guess-2.0.4
-minijinja-1.0.21
+minijinja-2.5.0
 minimal-lexical-0.2.1
 miniz_oxide-0.8.0
 msi-0.7.0
@@ -271,7 +269,6 @@ time-0.3.36
 time-core-0.1.2
 time-macros-0.2.18
 tinystr-0.7.6
-toml-0.5.11
 toml-0.8.15
 toml_datetime-0.6.6
 toml_edit-0.21.1
@@ -389,7 +386,7 @@ https://crates.io/api/v1/crates/cargo-platform/0.1.8/download -> cargo-platform-
 https://crates.io/api/v1/crates/cargo-xwin/0.16.5/download -> cargo-xwin-0.16.5.crate
 https://crates.io/api/v1/crates/cargo-zigbuild/0.19.4/download -> cargo-zigbuild-0.19.4.crate
 https://crates.io/api/v1/crates/cargo_metadata/0.18.1/download -> cargo_metadata-0.18.1.crate
-https://crates.io/api/v1/crates/cbindgen/0.26.0/download -> cbindgen-0.26.0.crate
+https://crates.io/api/v1/crates/cbindgen/0.27.0/download -> cbindgen-0.27.0.crate
 https://crates.io/api/v1/crates/cc/1.2.1/download -> cc-1.2.1.crate
 https://crates.io/api/v1/crates/cfb/0.9.0/download -> cfb-0.9.0.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.0/download -> cfg-if-1.0.0.crate
@@ -461,7 +458,6 @@ https://crates.io/api/v1/crates/getrandom/0.2.15/download -> getrandom-0.2.15.cr
 https://crates.io/api/v1/crates/glob/0.3.1/download -> glob-0.3.1.crate
 https://crates.io/api/v1/crates/globset/0.4.15/download -> globset-0.4.15.crate
 https://crates.io/api/v1/crates/goblin/0.9.2/download -> goblin-0.9.2.crate
-https://crates.io/api/v1/crates/hashbrown/0.12.3/download -> hashbrown-0.12.3.crate
 https://crates.io/api/v1/crates/hashbrown/0.14.5/download -> hashbrown-0.14.5.crate
 https://crates.io/api/v1/crates/heck/0.4.1/download -> heck-0.4.1.crate
 https://crates.io/api/v1/crates/heck/0.5.0/download -> heck-0.5.0.crate
@@ -481,7 +477,6 @@ https://crates.io/api/v1/crates/icu_provider_macros/1.5.0/download -> icu_provid
 https://crates.io/api/v1/crates/idna/1.0.3/download -> idna-1.0.3.crate
 https://crates.io/api/v1/crates/idna_adapter/1.2.0/download -> idna_adapter-1.2.0.crate
 https://crates.io/api/v1/crates/ignore/0.4.23/download -> ignore-0.4.23.crate
-https://crates.io/api/v1/crates/indexmap/1.9.3/download -> indexmap-1.9.3.crate
 https://crates.io/api/v1/crates/indexmap/2.5.0/download -> indexmap-2.5.0.crate
 https://crates.io/api/v1/crates/indicatif/0.17.8/download -> indicatif-0.17.8.crate
 https://crates.io/api/v1/crates/indoc/2.0.5/download -> indoc-2.0.5.crate
@@ -507,7 +502,7 @@ https://crates.io/api/v1/crates/memchr/2.7.2/download -> memchr-2.7.2.crate
 https://crates.io/api/v1/crates/mimalloc/0.1.42/download -> mimalloc-0.1.42.crate
 https://crates.io/api/v1/crates/mime/0.3.17/download -> mime-0.3.17.crate
 https://crates.io/api/v1/crates/mime_guess/2.0.4/download -> mime_guess-2.0.4.crate
-https://crates.io/api/v1/crates/minijinja/1.0.21/download -> minijinja-1.0.21.crate
+https://crates.io/api/v1/crates/minijinja/2.5.0/download -> minijinja-2.5.0.crate
 https://crates.io/api/v1/crates/minimal-lexical/0.2.1/download -> minimal-lexical-0.2.1.crate
 https://crates.io/api/v1/crates/miniz_oxide/0.8.0/download -> miniz_oxide-0.8.0.crate
 https://crates.io/api/v1/crates/msi/0.7.0/download -> msi-0.7.0.crate
@@ -625,7 +620,6 @@ https://crates.io/api/v1/crates/time/0.3.36/download -> time-0.3.36.crate
 https://crates.io/api/v1/crates/time-core/0.1.2/download -> time-core-0.1.2.crate
 https://crates.io/api/v1/crates/time-macros/0.2.18/download -> time-macros-0.2.18.crate
 https://crates.io/api/v1/crates/tinystr/0.7.6/download -> tinystr-0.7.6.crate
-https://crates.io/api/v1/crates/toml/0.5.11/download -> toml-0.5.11.crate
 https://crates.io/api/v1/crates/toml/0.8.15/download -> toml-0.8.15.crate
 https://crates.io/api/v1/crates/toml_datetime/0.6.6/download -> toml_datetime-0.6.6.crate
 https://crates.io/api/v1/crates/toml_edit/0.21.1/download -> toml_edit-0.21.1.crate
@@ -706,7 +700,7 @@ https://crates.io/api/v1/crates/zeroize/1.8.1/download -> zeroize-1.8.1.crate
 https://crates.io/api/v1/crates/zerovec/0.10.4/download -> zerovec-0.10.4.crate
 https://crates.io/api/v1/crates/zerovec-derive/0.10.3/download -> zerovec-derive-0.10.3.crate
 https://crates.io/api/v1/crates/zip/0.6.6/download -> zip-0.6.6.crate
-https://files.pythonhosted.org/packages/d5/98/0bad3ddfb7504d860e3d43edb1bc61ad3b1816d805e918467908a05a9359/maturin-1.7.5.tar.gz -> maturin-1.7.5.tar.gz
+https://files.pythonhosted.org/packages/c1/e6/e888521dada73aa113b6007db391b1df51b0f9fbfc8fc574722f38b05c5e/maturin-1.7.6.tar.gz -> maturin-1.7.6.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="dev-python/setuptools-rust[${PYTHON_USEDEP}]"
@@ -715,4 +709,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.7.5"
+S="${WORKDIR}/maturin-1.7.6"
