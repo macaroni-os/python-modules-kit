@@ -682,7 +682,7 @@ https://crates.io/api/v1/crates/zeroize/1.8.1/download -> zeroize-1.8.1.crate
 https://crates.io/api/v1/crates/zip/0.6.6/download -> zip-0.6.6.crate
 https://crates.io/api/v1/crates/zip/2.1.6/download -> zip-2.1.6.crate
 https://crates.io/api/v1/crates/zopfli/0.8.1/download -> zopfli-0.8.1.crate
-https://files.pythonhosted.org/packages/69/1b/1a198a672a6c2faa0e0e2836f5e40c76da7b8767f4071e39eeeda736c7ca/maturin-1.7.7.tar.gz -> maturin-1.7.7.tar.gz
+https://files.pythonhosted.org/packages/ab/1e/085ddc0e5b08ae7af7a743a0dd6ed06b22a1332288488f1a333137885150/maturin-1.7.8.tar.gz -> maturin-1.7.8.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="dev-python/setuptools-rust[${PYTHON_USEDEP}]"
@@ -691,4 +691,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.7.7"
+S="${WORKDIR}/maturin-1.7.8"
