@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python 2 and 3 compatibility library"
 HOMEPAGE="https://github.com/benjaminp/six https://pypi.org/project/six/"
-SRC_URI="https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz -> six-1.16.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz -> six-1.17.0.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
