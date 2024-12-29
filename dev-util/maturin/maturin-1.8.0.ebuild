@@ -31,11 +31,11 @@ bzip2-0.4.4
 bzip2-sys-0.1.11+1.0.8
 cab-0.6.0
 camino-1.1.9
-cargo-config2-0.1.26
+cargo-config2-0.1.30
 cargo-options-0.7.4
 cargo-platform-0.1.8
-cargo-xwin-0.17.5
-cargo-zigbuild-0.19.5
+cargo-xwin-0.18.3
+cargo-zigbuild-0.19.7
 cargo_metadata-0.19.0
 cbindgen-0.27.0
 cc-1.1.21
@@ -93,9 +93,8 @@ fnv-1.0.7
 foreign-types-0.3.2
 foreign-types-shared-0.1.1
 form_urlencoded-1.2.1
-fs-err-2.11.0
 fs-err-3.0.0
-fs4-0.11.1
+fs4-0.12.0
 futures-0.3.30
 futures-channel-0.3.31
 futures-core-0.3.31
@@ -117,7 +116,18 @@ heck-0.5.0
 home-0.5.9
 humantime-2.1.0
 humantime-serde-1.1.1
-idna-0.5.0
+icu_collections-1.5.0
+icu_locid-1.5.0
+icu_locid_transform-1.5.0
+icu_locid_transform_data-1.5.0
+icu_normalizer-1.5.0
+icu_normalizer_data-1.5.0
+icu_properties-1.5.1
+icu_properties_data-1.5.0
+icu_provider-1.5.0
+icu_provider_macros-1.5.0
+idna-1.0.3
+idna_adapter-1.2.0
 ignore-0.4.23
 indexmap-2.5.0
 indicatif-0.17.8
@@ -138,6 +148,7 @@ litemap-0.7.3
 lock_api-0.4.12
 lockfree-object-pool-0.1.6
 log-0.4.21
+lzma-sys-0.1.20
 lzxd-0.2.5
 mailparse-0.15.0
 matchers-0.1.0
@@ -185,7 +196,7 @@ proc-macro-crate-3.1.0
 proc-macro2-1.0.85
 psm-0.1.21
 pyproject-toml-0.11.0
-python-pkginfo-0.6.3
+python-pkginfo-0.6.5
 quote-1.0.36
 quoted_printable-0.5.0
 rand-0.8.5
@@ -202,7 +213,7 @@ regex-automata-0.4.7
 regex-syntax-0.6.29
 regex-syntax-0.8.4
 relative-path-1.9.3
-rfc2047-decoder-1.0.5
+rfc2047-decoder-1.0.6
 ring-0.17.8
 rstest-0.22.0
 rstest_macros-0.22.0
@@ -225,10 +236,10 @@ scroll_derive-0.12.0
 security-framework-2.11.0
 security-framework-sys-2.11.0
 semver-1.0.23
-serde-1.0.210
-serde_derive-1.0.210
+serde-1.0.216
+serde_derive-1.0.216
 serde_derive_internals-0.29.1
-serde_json-1.0.128
+serde_json-1.0.133
 serde_spanned-0.6.6
 sha2-0.10.8
 sharded-slab-0.1.7
@@ -250,8 +261,9 @@ strsim-0.11.1
 subtle-2.5.0
 syn-1.0.109
 syn-2.0.87
-tar-0.4.42
-target-lexicon-0.12.16
+synstructure-0.13.1
+tar-0.4.43
+target-lexicon-0.13.0
 tempfile-3.11.0
 termcolor-1.4.1
 terminal_size-0.3.0
@@ -264,8 +276,7 @@ thread_local-1.1.8
 time-0.3.36
 time-core-0.1.2
 time-macros-0.2.18
-tinyvec-1.7.0
-tinyvec_macros-0.1.1
+tinystr-0.7.6
 toml-0.8.15
 toml_datetime-0.6.6
 toml_edit-0.21.1
@@ -280,17 +291,17 @@ trycmd-0.15.6
 twox-hash-1.6.3
 typenum-1.17.0
 unicase-2.7.0
-unicode-bidi-0.3.15
 unicode-ident-1.0.12
 unicode-linebreak-0.1.5
-unicode-normalization-0.1.23
 unicode-width-0.1.13
 unicode-xid-0.2.6
 unscanny-0.1.0
 untrusted-0.9.0
 ureq-2.11.0
-url-2.5.2
+url-2.5.4
 urlencoding-2.1.3
+utf16_iter-1.0.5
+utf8_iter-1.0.4
 utf8parse-0.2.2
 uuid-1.8.0
 valuable-0.1.0
@@ -310,34 +321,40 @@ winapi-x86_64-pc-windows-gnu-0.4.0
 windows-sys-0.48.0
 windows-sys-0.52.0
 windows-targets-0.48.5
-windows-targets-0.52.5
+windows-targets-0.52.6
 windows_aarch64_gnullvm-0.48.5
-windows_aarch64_gnullvm-0.52.5
+windows_aarch64_gnullvm-0.52.6
 windows_aarch64_msvc-0.48.5
-windows_aarch64_msvc-0.52.5
+windows_aarch64_msvc-0.52.6
 windows_i686_gnu-0.48.5
-windows_i686_gnu-0.52.5
-windows_i686_gnullvm-0.52.5
+windows_i686_gnu-0.52.6
+windows_i686_gnullvm-0.52.6
 windows_i686_msvc-0.48.5
-windows_i686_msvc-0.52.5
+windows_i686_msvc-0.52.6
 windows_x86_64_gnu-0.48.5
-windows_x86_64_gnu-0.52.5
+windows_x86_64_gnu-0.52.6
 windows_x86_64_gnullvm-0.48.5
-windows_x86_64_gnullvm-0.52.5
+windows_x86_64_gnullvm-0.52.6
 windows_x86_64_msvc-0.48.5
-windows_x86_64_msvc-0.52.5
+windows_x86_64_msvc-0.52.6
 winnow-0.5.40
 winnow-0.6.13
 winsafe-0.0.19
+write16-1.0.0
+writeable-0.5.5
 xattr-1.3.1
 xwin-0.6.5
+xz2-0.1.7
 yansi-1.0.1
 yoke-0.7.4
+yoke-derive-0.7.5
 zerocopy-0.7.34
 zerocopy-derive-0.7.34
 zerofrom-0.1.4
+zerofrom-derive-0.1.5
 zeroize-1.8.1
-zip-0.6.6
+zerovec-0.10.4
+zerovec-derive-0.10.3
 zip-2.1.6
 zopfli-0.8.1
 "
@@ -373,11 +390,11 @@ https://crates.io/api/v1/crates/bzip2/0.4.4/download -> bzip2-0.4.4.crate
 https://crates.io/api/v1/crates/bzip2-sys/0.1.11+1.0.8/download -> bzip2-sys-0.1.11+1.0.8.crate
 https://crates.io/api/v1/crates/cab/0.6.0/download -> cab-0.6.0.crate
 https://crates.io/api/v1/crates/camino/1.1.9/download -> camino-1.1.9.crate
-https://crates.io/api/v1/crates/cargo-config2/0.1.26/download -> cargo-config2-0.1.26.crate
+https://crates.io/api/v1/crates/cargo-config2/0.1.30/download -> cargo-config2-0.1.30.crate
 https://crates.io/api/v1/crates/cargo-options/0.7.4/download -> cargo-options-0.7.4.crate
 https://crates.io/api/v1/crates/cargo-platform/0.1.8/download -> cargo-platform-0.1.8.crate
-https://crates.io/api/v1/crates/cargo-xwin/0.17.5/download -> cargo-xwin-0.17.5.crate
-https://crates.io/api/v1/crates/cargo-zigbuild/0.19.5/download -> cargo-zigbuild-0.19.5.crate
+https://crates.io/api/v1/crates/cargo-xwin/0.18.3/download -> cargo-xwin-0.18.3.crate
+https://crates.io/api/v1/crates/cargo-zigbuild/0.19.7/download -> cargo-zigbuild-0.19.7.crate
 https://crates.io/api/v1/crates/cargo_metadata/0.19.0/download -> cargo_metadata-0.19.0.crate
 https://crates.io/api/v1/crates/cbindgen/0.27.0/download -> cbindgen-0.27.0.crate
 https://crates.io/api/v1/crates/cc/1.1.21/download -> cc-1.1.21.crate
@@ -435,9 +452,8 @@ https://crates.io/api/v1/crates/fnv/1.0.7/download -> fnv-1.0.7.crate
 https://crates.io/api/v1/crates/foreign-types/0.3.2/download -> foreign-types-0.3.2.crate
 https://crates.io/api/v1/crates/foreign-types-shared/0.1.1/download -> foreign-types-shared-0.1.1.crate
 https://crates.io/api/v1/crates/form_urlencoded/1.2.1/download -> form_urlencoded-1.2.1.crate
-https://crates.io/api/v1/crates/fs-err/2.11.0/download -> fs-err-2.11.0.crate
 https://crates.io/api/v1/crates/fs-err/3.0.0/download -> fs-err-3.0.0.crate
-https://crates.io/api/v1/crates/fs4/0.11.1/download -> fs4-0.11.1.crate
+https://crates.io/api/v1/crates/fs4/0.12.0/download -> fs4-0.12.0.crate
 https://crates.io/api/v1/crates/futures/0.3.30/download -> futures-0.3.30.crate
 https://crates.io/api/v1/crates/futures-channel/0.3.31/download -> futures-channel-0.3.31.crate
 https://crates.io/api/v1/crates/futures-core/0.3.31/download -> futures-core-0.3.31.crate
@@ -459,7 +475,18 @@ https://crates.io/api/v1/crates/heck/0.5.0/download -> heck-0.5.0.crate
 https://crates.io/api/v1/crates/home/0.5.9/download -> home-0.5.9.crate
 https://crates.io/api/v1/crates/humantime/2.1.0/download -> humantime-2.1.0.crate
 https://crates.io/api/v1/crates/humantime-serde/1.1.1/download -> humantime-serde-1.1.1.crate
-https://crates.io/api/v1/crates/idna/0.5.0/download -> idna-0.5.0.crate
+https://crates.io/api/v1/crates/icu_collections/1.5.0/download -> icu_collections-1.5.0.crate
+https://crates.io/api/v1/crates/icu_locid/1.5.0/download -> icu_locid-1.5.0.crate
+https://crates.io/api/v1/crates/icu_locid_transform/1.5.0/download -> icu_locid_transform-1.5.0.crate
+https://crates.io/api/v1/crates/icu_locid_transform_data/1.5.0/download -> icu_locid_transform_data-1.5.0.crate
+https://crates.io/api/v1/crates/icu_normalizer/1.5.0/download -> icu_normalizer-1.5.0.crate
+https://crates.io/api/v1/crates/icu_normalizer_data/1.5.0/download -> icu_normalizer_data-1.5.0.crate
+https://crates.io/api/v1/crates/icu_properties/1.5.1/download -> icu_properties-1.5.1.crate
+https://crates.io/api/v1/crates/icu_properties_data/1.5.0/download -> icu_properties_data-1.5.0.crate
+https://crates.io/api/v1/crates/icu_provider/1.5.0/download -> icu_provider-1.5.0.crate
+https://crates.io/api/v1/crates/icu_provider_macros/1.5.0/download -> icu_provider_macros-1.5.0.crate
+https://crates.io/api/v1/crates/idna/1.0.3/download -> idna-1.0.3.crate
+https://crates.io/api/v1/crates/idna_adapter/1.2.0/download -> idna_adapter-1.2.0.crate
 https://crates.io/api/v1/crates/ignore/0.4.23/download -> ignore-0.4.23.crate
 https://crates.io/api/v1/crates/indexmap/2.5.0/download -> indexmap-2.5.0.crate
 https://crates.io/api/v1/crates/indicatif/0.17.8/download -> indicatif-0.17.8.crate
@@ -480,6 +507,7 @@ https://crates.io/api/v1/crates/litemap/0.7.3/download -> litemap-0.7.3.crate
 https://crates.io/api/v1/crates/lock_api/0.4.12/download -> lock_api-0.4.12.crate
 https://crates.io/api/v1/crates/lockfree-object-pool/0.1.6/download -> lockfree-object-pool-0.1.6.crate
 https://crates.io/api/v1/crates/log/0.4.21/download -> log-0.4.21.crate
+https://crates.io/api/v1/crates/lzma-sys/0.1.20/download -> lzma-sys-0.1.20.crate
 https://crates.io/api/v1/crates/lzxd/0.2.5/download -> lzxd-0.2.5.crate
 https://crates.io/api/v1/crates/mailparse/0.15.0/download -> mailparse-0.15.0.crate
 https://crates.io/api/v1/crates/matchers/0.1.0/download -> matchers-0.1.0.crate
@@ -527,7 +555,7 @@ https://crates.io/api/v1/crates/proc-macro-crate/3.1.0/download -> proc-macro-cr
 https://crates.io/api/v1/crates/proc-macro2/1.0.85/download -> proc-macro2-1.0.85.crate
 https://crates.io/api/v1/crates/psm/0.1.21/download -> psm-0.1.21.crate
 https://crates.io/api/v1/crates/pyproject-toml/0.11.0/download -> pyproject-toml-0.11.0.crate
-https://crates.io/api/v1/crates/python-pkginfo/0.6.3/download -> python-pkginfo-0.6.3.crate
+https://crates.io/api/v1/crates/python-pkginfo/0.6.5/download -> python-pkginfo-0.6.5.crate
 https://crates.io/api/v1/crates/quote/1.0.36/download -> quote-1.0.36.crate
 https://crates.io/api/v1/crates/quoted_printable/0.5.0/download -> quoted_printable-0.5.0.crate
 https://crates.io/api/v1/crates/rand/0.8.5/download -> rand-0.8.5.crate
@@ -544,7 +572,7 @@ https://crates.io/api/v1/crates/regex-automata/0.4.7/download -> regex-automata-
 https://crates.io/api/v1/crates/regex-syntax/0.6.29/download -> regex-syntax-0.6.29.crate
 https://crates.io/api/v1/crates/regex-syntax/0.8.4/download -> regex-syntax-0.8.4.crate
 https://crates.io/api/v1/crates/relative-path/1.9.3/download -> relative-path-1.9.3.crate
-https://crates.io/api/v1/crates/rfc2047-decoder/1.0.5/download -> rfc2047-decoder-1.0.5.crate
+https://crates.io/api/v1/crates/rfc2047-decoder/1.0.6/download -> rfc2047-decoder-1.0.6.crate
 https://crates.io/api/v1/crates/ring/0.17.8/download -> ring-0.17.8.crate
 https://crates.io/api/v1/crates/rstest/0.22.0/download -> rstest-0.22.0.crate
 https://crates.io/api/v1/crates/rstest_macros/0.22.0/download -> rstest_macros-0.22.0.crate
@@ -567,10 +595,10 @@ https://crates.io/api/v1/crates/scroll_derive/0.12.0/download -> scroll_derive-0
 https://crates.io/api/v1/crates/security-framework/2.11.0/download -> security-framework-2.11.0.crate
 https://crates.io/api/v1/crates/security-framework-sys/2.11.0/download -> security-framework-sys-2.11.0.crate
 https://crates.io/api/v1/crates/semver/1.0.23/download -> semver-1.0.23.crate
-https://crates.io/api/v1/crates/serde/1.0.210/download -> serde-1.0.210.crate
-https://crates.io/api/v1/crates/serde_derive/1.0.210/download -> serde_derive-1.0.210.crate
+https://crates.io/api/v1/crates/serde/1.0.216/download -> serde-1.0.216.crate
+https://crates.io/api/v1/crates/serde_derive/1.0.216/download -> serde_derive-1.0.216.crate
 https://crates.io/api/v1/crates/serde_derive_internals/0.29.1/download -> serde_derive_internals-0.29.1.crate
-https://crates.io/api/v1/crates/serde_json/1.0.128/download -> serde_json-1.0.128.crate
+https://crates.io/api/v1/crates/serde_json/1.0.133/download -> serde_json-1.0.133.crate
 https://crates.io/api/v1/crates/serde_spanned/0.6.6/download -> serde_spanned-0.6.6.crate
 https://crates.io/api/v1/crates/sha2/0.10.8/download -> sha2-0.10.8.crate
 https://crates.io/api/v1/crates/sharded-slab/0.1.7/download -> sharded-slab-0.1.7.crate
@@ -592,8 +620,9 @@ https://crates.io/api/v1/crates/strsim/0.11.1/download -> strsim-0.11.1.crate
 https://crates.io/api/v1/crates/subtle/2.5.0/download -> subtle-2.5.0.crate
 https://crates.io/api/v1/crates/syn/1.0.109/download -> syn-1.0.109.crate
 https://crates.io/api/v1/crates/syn/2.0.87/download -> syn-2.0.87.crate
-https://crates.io/api/v1/crates/tar/0.4.42/download -> tar-0.4.42.crate
-https://crates.io/api/v1/crates/target-lexicon/0.12.16/download -> target-lexicon-0.12.16.crate
+https://crates.io/api/v1/crates/synstructure/0.13.1/download -> synstructure-0.13.1.crate
+https://crates.io/api/v1/crates/tar/0.4.43/download -> tar-0.4.43.crate
+https://crates.io/api/v1/crates/target-lexicon/0.13.0/download -> target-lexicon-0.13.0.crate
 https://crates.io/api/v1/crates/tempfile/3.11.0/download -> tempfile-3.11.0.crate
 https://crates.io/api/v1/crates/termcolor/1.4.1/download -> termcolor-1.4.1.crate
 https://crates.io/api/v1/crates/terminal_size/0.3.0/download -> terminal_size-0.3.0.crate
@@ -606,8 +635,7 @@ https://crates.io/api/v1/crates/thread_local/1.1.8/download -> thread_local-1.1.
 https://crates.io/api/v1/crates/time/0.3.36/download -> time-0.3.36.crate
 https://crates.io/api/v1/crates/time-core/0.1.2/download -> time-core-0.1.2.crate
 https://crates.io/api/v1/crates/time-macros/0.2.18/download -> time-macros-0.2.18.crate
-https://crates.io/api/v1/crates/tinyvec/1.7.0/download -> tinyvec-1.7.0.crate
-https://crates.io/api/v1/crates/tinyvec_macros/0.1.1/download -> tinyvec_macros-0.1.1.crate
+https://crates.io/api/v1/crates/tinystr/0.7.6/download -> tinystr-0.7.6.crate
 https://crates.io/api/v1/crates/toml/0.8.15/download -> toml-0.8.15.crate
 https://crates.io/api/v1/crates/toml_datetime/0.6.6/download -> toml_datetime-0.6.6.crate
 https://crates.io/api/v1/crates/toml_edit/0.21.1/download -> toml_edit-0.21.1.crate
@@ -622,17 +650,17 @@ https://crates.io/api/v1/crates/trycmd/0.15.6/download -> trycmd-0.15.6.crate
 https://crates.io/api/v1/crates/twox-hash/1.6.3/download -> twox-hash-1.6.3.crate
 https://crates.io/api/v1/crates/typenum/1.17.0/download -> typenum-1.17.0.crate
 https://crates.io/api/v1/crates/unicase/2.7.0/download -> unicase-2.7.0.crate
-https://crates.io/api/v1/crates/unicode-bidi/0.3.15/download -> unicode-bidi-0.3.15.crate
 https://crates.io/api/v1/crates/unicode-ident/1.0.12/download -> unicode-ident-1.0.12.crate
 https://crates.io/api/v1/crates/unicode-linebreak/0.1.5/download -> unicode-linebreak-0.1.5.crate
-https://crates.io/api/v1/crates/unicode-normalization/0.1.23/download -> unicode-normalization-0.1.23.crate
 https://crates.io/api/v1/crates/unicode-width/0.1.13/download -> unicode-width-0.1.13.crate
 https://crates.io/api/v1/crates/unicode-xid/0.2.6/download -> unicode-xid-0.2.6.crate
 https://crates.io/api/v1/crates/unscanny/0.1.0/download -> unscanny-0.1.0.crate
 https://crates.io/api/v1/crates/untrusted/0.9.0/download -> untrusted-0.9.0.crate
 https://crates.io/api/v1/crates/ureq/2.11.0/download -> ureq-2.11.0.crate
-https://crates.io/api/v1/crates/url/2.5.2/download -> url-2.5.2.crate
+https://crates.io/api/v1/crates/url/2.5.4/download -> url-2.5.4.crate
 https://crates.io/api/v1/crates/urlencoding/2.1.3/download -> urlencoding-2.1.3.crate
+https://crates.io/api/v1/crates/utf16_iter/1.0.5/download -> utf16_iter-1.0.5.crate
+https://crates.io/api/v1/crates/utf8_iter/1.0.4/download -> utf8_iter-1.0.4.crate
 https://crates.io/api/v1/crates/utf8parse/0.2.2/download -> utf8parse-0.2.2.crate
 https://crates.io/api/v1/crates/uuid/1.8.0/download -> uuid-1.8.0.crate
 https://crates.io/api/v1/crates/valuable/0.1.0/download -> valuable-0.1.0.crate
@@ -652,37 +680,43 @@ https://crates.io/api/v1/crates/winapi-x86_64-pc-windows-gnu/0.4.0/download -> w
 https://crates.io/api/v1/crates/windows-sys/0.48.0/download -> windows-sys-0.48.0.crate
 https://crates.io/api/v1/crates/windows-sys/0.52.0/download -> windows-sys-0.52.0.crate
 https://crates.io/api/v1/crates/windows-targets/0.48.5/download -> windows-targets-0.48.5.crate
-https://crates.io/api/v1/crates/windows-targets/0.52.5/download -> windows-targets-0.52.5.crate
+https://crates.io/api/v1/crates/windows-targets/0.52.6/download -> windows-targets-0.52.6.crate
 https://crates.io/api/v1/crates/windows_aarch64_gnullvm/0.48.5/download -> windows_aarch64_gnullvm-0.48.5.crate
-https://crates.io/api/v1/crates/windows_aarch64_gnullvm/0.52.5/download -> windows_aarch64_gnullvm-0.52.5.crate
+https://crates.io/api/v1/crates/windows_aarch64_gnullvm/0.52.6/download -> windows_aarch64_gnullvm-0.52.6.crate
 https://crates.io/api/v1/crates/windows_aarch64_msvc/0.48.5/download -> windows_aarch64_msvc-0.48.5.crate
-https://crates.io/api/v1/crates/windows_aarch64_msvc/0.52.5/download -> windows_aarch64_msvc-0.52.5.crate
+https://crates.io/api/v1/crates/windows_aarch64_msvc/0.52.6/download -> windows_aarch64_msvc-0.52.6.crate
 https://crates.io/api/v1/crates/windows_i686_gnu/0.48.5/download -> windows_i686_gnu-0.48.5.crate
-https://crates.io/api/v1/crates/windows_i686_gnu/0.52.5/download -> windows_i686_gnu-0.52.5.crate
-https://crates.io/api/v1/crates/windows_i686_gnullvm/0.52.5/download -> windows_i686_gnullvm-0.52.5.crate
+https://crates.io/api/v1/crates/windows_i686_gnu/0.52.6/download -> windows_i686_gnu-0.52.6.crate
+https://crates.io/api/v1/crates/windows_i686_gnullvm/0.52.6/download -> windows_i686_gnullvm-0.52.6.crate
 https://crates.io/api/v1/crates/windows_i686_msvc/0.48.5/download -> windows_i686_msvc-0.48.5.crate
-https://crates.io/api/v1/crates/windows_i686_msvc/0.52.5/download -> windows_i686_msvc-0.52.5.crate
+https://crates.io/api/v1/crates/windows_i686_msvc/0.52.6/download -> windows_i686_msvc-0.52.6.crate
 https://crates.io/api/v1/crates/windows_x86_64_gnu/0.48.5/download -> windows_x86_64_gnu-0.48.5.crate
-https://crates.io/api/v1/crates/windows_x86_64_gnu/0.52.5/download -> windows_x86_64_gnu-0.52.5.crate
+https://crates.io/api/v1/crates/windows_x86_64_gnu/0.52.6/download -> windows_x86_64_gnu-0.52.6.crate
 https://crates.io/api/v1/crates/windows_x86_64_gnullvm/0.48.5/download -> windows_x86_64_gnullvm-0.48.5.crate
-https://crates.io/api/v1/crates/windows_x86_64_gnullvm/0.52.5/download -> windows_x86_64_gnullvm-0.52.5.crate
+https://crates.io/api/v1/crates/windows_x86_64_gnullvm/0.52.6/download -> windows_x86_64_gnullvm-0.52.6.crate
 https://crates.io/api/v1/crates/windows_x86_64_msvc/0.48.5/download -> windows_x86_64_msvc-0.48.5.crate
-https://crates.io/api/v1/crates/windows_x86_64_msvc/0.52.5/download -> windows_x86_64_msvc-0.52.5.crate
+https://crates.io/api/v1/crates/windows_x86_64_msvc/0.52.6/download -> windows_x86_64_msvc-0.52.6.crate
 https://crates.io/api/v1/crates/winnow/0.5.40/download -> winnow-0.5.40.crate
 https://crates.io/api/v1/crates/winnow/0.6.13/download -> winnow-0.6.13.crate
 https://crates.io/api/v1/crates/winsafe/0.0.19/download -> winsafe-0.0.19.crate
+https://crates.io/api/v1/crates/write16/1.0.0/download -> write16-1.0.0.crate
+https://crates.io/api/v1/crates/writeable/0.5.5/download -> writeable-0.5.5.crate
 https://crates.io/api/v1/crates/xattr/1.3.1/download -> xattr-1.3.1.crate
 https://crates.io/api/v1/crates/xwin/0.6.5/download -> xwin-0.6.5.crate
+https://crates.io/api/v1/crates/xz2/0.1.7/download -> xz2-0.1.7.crate
 https://crates.io/api/v1/crates/yansi/1.0.1/download -> yansi-1.0.1.crate
 https://crates.io/api/v1/crates/yoke/0.7.4/download -> yoke-0.7.4.crate
+https://crates.io/api/v1/crates/yoke-derive/0.7.5/download -> yoke-derive-0.7.5.crate
 https://crates.io/api/v1/crates/zerocopy/0.7.34/download -> zerocopy-0.7.34.crate
 https://crates.io/api/v1/crates/zerocopy-derive/0.7.34/download -> zerocopy-derive-0.7.34.crate
 https://crates.io/api/v1/crates/zerofrom/0.1.4/download -> zerofrom-0.1.4.crate
+https://crates.io/api/v1/crates/zerofrom-derive/0.1.5/download -> zerofrom-derive-0.1.5.crate
 https://crates.io/api/v1/crates/zeroize/1.8.1/download -> zeroize-1.8.1.crate
-https://crates.io/api/v1/crates/zip/0.6.6/download -> zip-0.6.6.crate
+https://crates.io/api/v1/crates/zerovec/0.10.4/download -> zerovec-0.10.4.crate
+https://crates.io/api/v1/crates/zerovec-derive/0.10.3/download -> zerovec-derive-0.10.3.crate
 https://crates.io/api/v1/crates/zip/2.1.6/download -> zip-2.1.6.crate
 https://crates.io/api/v1/crates/zopfli/0.8.1/download -> zopfli-0.8.1.crate
-https://files.pythonhosted.org/packages/ab/1e/085ddc0e5b08ae7af7a743a0dd6ed06b22a1332288488f1a333137885150/maturin-1.7.8.tar.gz -> maturin-1.7.8.tar.gz
+https://files.pythonhosted.org/packages/b0/f3/776ae3234473b63f9427dcf7fee2e69fe3c1eedae242ab9d1f3e7c25ec59/maturin-1.8.0.tar.gz -> maturin-1.8.0.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="dev-python/setuptools-rust[${PYTHON_USEDEP}]"
@@ -691,4 +725,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.7.8"
+S="${WORKDIR}/maturin-1.8.0"
