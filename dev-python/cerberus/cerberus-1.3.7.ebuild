@@ -7,11 +7,11 @@ inherit distutils-r1
 
 DESCRIPTION="Lightweight, extensible schema and data validation tool for Pythondictionaries."
 HOMEPAGE="None https://pypi.org/project/Cerberus/"
-SRC_URI="https://files.pythonhosted.org/packages/dc/85/2d233b603cafe85662726c32710788bb6c21539db4739b77f5d9938ae79b/cerberus-1.3.6.tar.gz -> cerberus-1.3.6.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/92/6d861524d97a2c4913816309ca12afe313b32c8efc3ec641de98b890834b/cerberus-1.3.7.tar.gz -> cerberus-1.3.7.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/Cerberus-1.3.6"
+S="${WORKDIR}/Cerberus-1.3.7"
