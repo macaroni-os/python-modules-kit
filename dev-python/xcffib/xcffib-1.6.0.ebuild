@@ -5,9 +5,9 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="A drop in replacement for xpyb, an XCB python binding"
+DESCRIPTION="xcffib is the XCB binding for python"
 HOMEPAGE="https://github.com/tych0/xcffib"
-SRC_URI="https://files.pythonhosted.org/packages/80/79/69a7239a42ebe3054c32857124caa26e84024fce2fd56616091a047fe7fa/xcffib-1.5.0.tar.gz -> xcffib-1.5.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/5f/34e407ba14f8cff1bad78b4ff683bfc44a5f649bb1d2b42a94c5f07f08d0/xcffib-1.6.0.tar.gz -> xcffib-1.6.0.tar.gz"
 
 DEPEND="
 	x11-libs/libxcb"
@@ -17,4 +17,4 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/xcffib-1.5.0"
+S="${WORKDIR}/xcffib-1.6.0"
