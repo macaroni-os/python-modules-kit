@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Read resources from Python packages"
 HOMEPAGE="None https://pypi.org/project/importlib-resources/"
-SRC_URI="https://files.pythonhosted.org/packages/90/17/f0adf2fda7f289c2a6c0e7d66ab01a47de8f85f91b8c13b533ce74fe7fbc/importlib_resources-6.5.0.tar.gz -> importlib_resources-6.5.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cf/8c/f834fbf984f691b4f7ff60f50b514cc3de5cc08abfc3295564dd89c5e2e7/importlib_resources-6.5.2.tar.gz -> importlib_resources-6.5.2.tar.gz"
 
 DEPEND="
 	dev-python/toml[${PYTHON_USEDEP}]
@@ -17,6 +17,6 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/importlib_resources-6.5.0"
+S="${WORKDIR}/importlib_resources-6.5.2"
 
 distutils_enable_sphinx docs dev-python/rst-linker dev-python/jaraco-packaging
