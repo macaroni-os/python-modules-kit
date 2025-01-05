@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python interface to Graphviz's Dot"
 HOMEPAGE="None https://pypi.org/project/pydot/"
-SRC_URI="https://files.pythonhosted.org/packages/bf/b8/500a772825c7ca87e4fd69c3bd6740e3375d6792a7065dd92759249f223d/pydot-3.0.3.tar.gz -> pydot-3.0.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/66/dd/e0e6a4fb84c22050f6a9701ad9fd6a67ef82faa7ba97b97eb6fdc6b49b34/pydot-3.0.4.tar.gz -> pydot-3.0.4.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pydot-3.0.3"
+S="${WORKDIR}/pydot-3.0.4"
