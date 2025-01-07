@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="Pygments is a syntax highlighting package written in Python."
 HOMEPAGE="None https://pypi.org/project/Pygments/"
-SRC_URI="https://files.pythonhosted.org/packages/d3/c0/9c9832e5be227c40e1ce774d493065f83a91d6430baa7e372094e9683a45/pygments-2.19.0.tar.gz -> pygments-2.19.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7c/2d/c3338d48ea6cc0feb8446d8e6937e1408088a72a39937982cc6111d17f84/pygments-2.19.1.tar.gz -> pygments-2.19.1.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/pygments-2.19.0"
+S="${WORKDIR}/pygments-2.19.1"
