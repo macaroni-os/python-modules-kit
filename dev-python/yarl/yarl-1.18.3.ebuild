@@ -1,32 +1,22 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python3+ pypy3 )
 
+PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Yet another URL library"
-HOMEPAGE="https://github.com/aio-libs/yarl/"
+HOMEPAGE="https://github.com/aio-libs/yarl https://pypi.org/project/yarl/"
 SRC_URI="https://files.pythonhosted.org/packages/b7/9d/4b94a8e6d2b51b599516a5cb88e5bc99b4d8d4583e468057eaa29d5f0918/yarl-1.18.3.tar.gz -> yarl-1.18.3.tar.gz"
 
-LICENSE="Apache-2.0"
-SLOT="0"
-KEYWORDS="*"
-IUSE="test"
-RESTRICT="!test? ( test )"
-
+DEPEND=""
 RDEPEND="
-	>=dev-python/multidict-4.0[${PYTHON_USEDEP}]
 	>=dev-python/idna-2.0[${PYTHON_USEDEP}]
-"
-DEPEND="${RDEPEND}
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
-
-src_prepare() {
-	default
-	sed -i -e '/^addopts = --cov.*/d' -e 's/def test_no_scheme1/def _test_no_scheme1/' ${S}/setup.cfg || die
-}
-
-python_test() {
-	py.test -v tests || die "Tests fail with ${EPYTHON}"
-}
+	>=dev-python/propcache-0.2.0[${PYTHON_USEDEP}]
+	>=dev-python/multidict-4.0[${PYTHON_USEDEP}]"
+IUSE=""
+SLOT="0"
+LICENSE="Apache-2.0"
+KEYWORDS="*"
+S="${WORKDIR}/yarl-1.18.3"
