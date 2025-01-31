@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Manipulation and analysis of geometric objects"
 HOMEPAGE="None https://pypi.org/project/shapely/"
-SRC_URI="https://files.pythonhosted.org/packages/4a/89/0d20bac88016be35ff7d3c0c2ae64b477908f1b1dfa540c5d69ac7af07fe/shapely-2.0.6.tar.gz -> shapely-2.0.6.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/21/c0/a911d1fd765d07a2b6769ce155219a281bfbe311584ebe97340d75c5bdb1/shapely-2.0.7.tar.gz -> shapely-2.0.7.tar.gz"
 
 DEPEND="
 	>=sci-libs/geos-3.5
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/shapely-2.0.6"
+S="${WORKDIR}/shapely-2.0.7"

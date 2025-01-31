@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Non-blocking MongoDB driver for Tornado or asyncio"
 HOMEPAGE="None https://pypi.org/project/motor/"
-SRC_URI="https://files.pythonhosted.org/packages/c3/5d/be1f10b4ecc259503bcc9c5642a61b39715796343c771f3f61b84f79ee21/motor-3.6.1.tar.gz -> motor-3.6.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2b/c0/b94558a88fb8406b092bb180c6fa5fb3068f8ec2c7e84dd2b0625f4f4f6e/motor-3.7.0.tar.gz -> motor-3.7.0.tar.gz"
 
 DEPEND="dev-python/hatch-requirements-txt[${PYTHON_USEDEP}]"
 RDEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/motor-3.6.1"
+S="${WORKDIR}/motor-3.7.0"
