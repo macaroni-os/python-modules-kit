@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="A Python bindings generator for C/C++ libraries"
 HOMEPAGE="None https://pypi.org/project/sip/"
-SRC_URI="https://files.pythonhosted.org/packages/e2/83/b23f610ef99fa23aa3c8dcd2ff8536c37b943654405ff4f45f3230327a40/sip-6.9.1.tar.gz -> sip-6.9.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/9a/78122735697dbfc6c1db363627309eb0da7e44d8c05ba017b08666530586/sip-6.10.0.tar.gz -> sip-6.10.0.tar.gz"
 
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="SIP"
 KEYWORDS="*"
-S="${WORKDIR}/sip-6.9.1"
+S="${WORKDIR}/sip-6.10.0"
