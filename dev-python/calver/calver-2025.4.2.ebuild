@@ -15,3 +15,8 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/calver-2025.4.2"
+
+src_prepare() {
+	sed -i -e 's/license = "Apache-2.0"/license = { text = "Apache-2.0" }/' pyproject.toml || die
+	distutils-r1_src_prepare
+}

@@ -13,7 +13,7 @@ DEPEND=""
 RDEPEND="!<dev-python/wheel-0.38.2-r1 "
 IUSE=""
 SLOT="0"
-LICENSE=""
+LICENSE="MIT"
 KEYWORDS="*"
 S="${WORKDIR}/wheel-0.37.1"
 
