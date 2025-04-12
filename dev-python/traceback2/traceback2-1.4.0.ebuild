@@ -1,18 +1,25 @@
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=5
 
-PYTHON_COMPAT=( python3+ )
+PYTHON_COMPAT=( python2_7 python3_{5,6,7} pypy pypy3 )
+
 inherit distutils-r1
 
 DESCRIPTION="Backports of the traceback module"
-HOMEPAGE="https://github.com/testing-cabal/traceback2 https://pypi.org/project/traceback2/"
-SRC_URI="https://files.pythonhosted.org/packages/eb/7f/e20ba11390bdfc55117c8c6070838ec914e6f0053a602390a598057884eb/traceback2-1.4.0.tar.gz -> traceback2-1.4.0.tar.gz"
+HOMEPAGE="https://github.com/testing-cabal/traceback2"
+SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
-DEPEND="$(python_gen_cond_dep 'dev-python/pbr[${PYTHON_USEDEP}] dev-python/setuptools[${PYTHON_USEDEP}]' -3)"
-RDEPEND="$(python_gen_cond_dep 'dev-python/linecache2[${PYTHON_USEDEP}]' -3)"
-IUSE=""
+LICENSE="PSF-2"
 SLOT="0"
-LICENSE=""
-KEYWORDS="*"
-S="${WORKDIR}/traceback2-1.4.0"
+KEYWORDS="alpha amd64 arm arm64 hppa ia64 ~m68k ~mips ppc ppc64 s390 ~sh sparc x86 ~amd64-fbsd"
+IUSE=""
+
+DEPEND="
+	dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/pbr[${PYTHON_USEDEP}]"
+
+RDEPEND="
+	${DEPEND}
+	dev-python/linecache2[${PYTHON_USEDEP}]"
