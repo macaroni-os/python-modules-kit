@@ -1,17 +1,31 @@
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=5
 
-PYTHON_COMPAT=( python3+ )
+PYTHON_COMPAT=( python2_7 python3_{5,6,7} pypy pypy3 )
+
 inherit distutils-r1
 
 DESCRIPTION="Backports of the linecache module"
-HOMEPAGE="https://github.com/testing-cabal/linecache2 https://pypi.org/project/linecache2/"
-SRC_URI="https://files.pythonhosted.org/packages/44/b0/963c352372c242f9e40db02bbc6a39ae51bde15dddee8523fe4aca94a97e/linecache2-1.0.0.tar.gz -> linecache2-1.0.0.tar.gz"
+HOMEPAGE="https://github.com/testing-cabal/linecache2"
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
-DEPEND="$(python_gen_cond_dep 'dev-python/pbr[${PYTHON_USEDEP}] dev-python/setuptools[${PYTHON_USEDEP}]' -3)"
-IUSE=""
+LICENSE="PSF-2"
 SLOT="0"
-LICENSE=""
-KEYWORDS="*"
-S="${WORKDIR}/linecache2-1.0.0"
+KEYWORDS="alpha amd64 arm arm64 hppa ia64 ~m68k ~mips ppc ppc64 s390 ~sh sparc x86 ~amd64-fbsd"
+IUSE="test"
+
+DEPEND="
+	dev-python/pbr[${PYTHON_USEDEP}]
+	dev-python/setuptools[${PYTHON_USEDEP}]
+	test? (
+		dev-python/fixtures[${PYTHON_USEDEP}]
+		dev-python/unittest2[${PYTHON_USEDEP}]
+	)"
+
+RDEPEND=""
+
+python_test() {
+	"${PYTHON}" -m unittest2 discover || die "tests failed under ${EPYTHON}"
+}
