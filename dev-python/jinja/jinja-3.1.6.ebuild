@@ -1,4 +1,5 @@
 # Distributed under the terms of the GNU General Public License v2
+# Autogen by MARK Devkit
 
 EAPI=7
 
@@ -19,7 +20,7 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/Jinja2-3.1.6"
+S="${WORKDIR}/jinja2-3.1.6"
 
 src_prepare() {
 	# avoid unnecessary dep on extra sphinxcontrib modules
