@@ -35,7 +35,7 @@ RDEPEND="
 	dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}]"
 IUSE="doc latex"
 SLOT="0"
-LICENSE="BSD"
+LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/sphinx-7.4.7"
 
