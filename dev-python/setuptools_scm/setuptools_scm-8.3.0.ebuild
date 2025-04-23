@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="the blessed package to manage your versions by scm tags"
 HOMEPAGE="None https://pypi.org/project/setuptools-scm/"
-SRC_URI="https://files.pythonhosted.org/packages/98/7d/334fba3c2e30ddb5cb9fca7fb8f883c8093891cd1fb02fcf981f2fc4ca96/setuptools_scm-8.2.1.tar.gz -> setuptools_scm-8.2.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ae/c1/0eb89ad8a0aa7033bbd0cc9fb44a0090c20edaba495f291e31be010e6ec1/setuptools_scm-8.3.0.tar.gz -> setuptools_scm-8.3.0.tar.gz"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="
@@ -20,7 +20,7 @@ IUSE="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/setuptools_scm-8.2.1"
+S="${WORKDIR}/setuptools_scm-8.3.0"
 
 src_configure() {
 	if has_version "<dev-python/setuptools_scm-8"; then # only happens when setuptools_scm-7 is installed (main cause is duplicated entry points in similar fashion as in https://github.com/pypa/setuptools/issues/3649)
