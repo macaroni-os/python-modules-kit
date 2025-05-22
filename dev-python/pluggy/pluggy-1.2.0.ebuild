@@ -7,7 +7,7 @@ DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="plugin and hook calling mechanisms for python"
-HOMEPAGE="https://github.com/pytest-dev/pluggy https://pypi.org/project/pluggy/"
+HOMEPAGE="None https://pypi.org/project/pluggy/"
 SRC_URI="https://files.pythonhosted.org/packages/8a/42/8f2833655a29c4e9cb52ee8a2be04ceac61bcff4a680fb338cbd3d1e322d/pluggy-1.2.0.tar.gz -> pluggy-1.2.0.tar.gz"
 
 DEPEND="
