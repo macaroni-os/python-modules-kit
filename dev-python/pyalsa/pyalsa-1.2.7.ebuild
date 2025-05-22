@@ -19,4 +19,4 @@ RDEPEND="media-libs/alsa-lib"
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 
-PATCHES=( "${REPODIR}/media-sound/files/${PN}/${PN}-1.1.6-no-build-symlinks.patch" )
+PATCHES=( "${FILESDIR}/${PN}-1.1.6-no-build-symlinks.patch" )
