@@ -12,6 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/b9/2e/0090cbf739cee7d23781ad4b8
 DEPEND=""
 IUSE=""
 SLOT="0"
-LICENSE="BSD"
+LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/click-8.1.8"
