@@ -4,6 +4,8 @@
 EAPI=7
 PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_PEP517="maturin"
+ECARGO_BUNDLE_POSTFIX="mark-rust-bundle"
+CARGO_OPTIONAL="yes"
 inherit cargo distutils-r1
 
 DESCRIPTION="cryptography is a package which provides cryptographic recipes and primitives to Python developers."
