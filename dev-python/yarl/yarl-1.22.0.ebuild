@@ -28,6 +28,10 @@ LICENSE="Apache-2.0"
 KEYWORDS="*"
 S="${WORKDIR}/yarl-1.22.0"
 
+src_prepare() {
+	sed -i -e '/^freethreading_compatible/d'  pyproject.toml
+	default
+}
 python_compile() {
 	local -x YARL_NO_EXTENSIONS=0
 	if ! use native-extensions || [[ ${EPYTHON} != python* ]]; then
