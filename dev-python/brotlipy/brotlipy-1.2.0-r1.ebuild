@@ -14,4 +14,4 @@ SRC_URI="https://files.pythonhosted.org/packages/f7/16/c92ca344d646e71a43b8bb353
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/Brotli-1.2.0"
+S="${WORKDIR}/brotli-1.2.0"
