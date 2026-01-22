@@ -12,6 +12,7 @@ SLOT="2"
 KEYWORDS="*"
 IUSE="+icu +lzma readline static-libs"
 RDEPEND="=dev-libs/libxml2-2.15.1:=[lzma?,icu?,readline?,static-libs?]
+!<dev-python/libxml2-python-2.15.0
 	
 "
 DEPEND="${RDEPEND}
