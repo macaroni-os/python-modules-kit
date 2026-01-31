@@ -16,8 +16,6 @@ RDEPEND="=dev-libs/libxml2-2.15.1:=[lzma?,icu?,readline?,static-libs?]
 	
 "
 DEPEND="${RDEPEND}
-	app-doc/doxygen[dot]
-	
 "
 S="${WORKDIR}/libxml2-2.15.1"
 src_prepare() {
