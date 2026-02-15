@@ -12,21 +12,21 @@ HOMEPAGE=""
 SRC_URI="https://files.pythonhosted.org/packages/c7/24/5f1b3bdffd70275f6661c76461e25f024d5a38a46f04aaca912426a2b1d3/urllib3-2.6.3.tar.gz -> urllib3-2.6.3.tar.gz
 "
 DEPEND="
-	http2? ( <dev-python/h2-5[${PYTHON_USEDEP}] )
-	http2? ( >dev-python/h2-4[${PYTHON_USEDEP}] )
-	brotli? ( dev-python/brotlipy[${PYTHON_USEDEP}] )
 	>=dev-python/PySocks-1.5.8[${PYTHON_USEDEP}]
 	<dev-python/PySocks-2.0[${PYTHON_USEDEP}]
 	zstd? ( dev-python/zstandard[${PYTHON_USEDEP}] )
+	http2? ( <dev-python/h2-5[${PYTHON_USEDEP}] )
+	http2? ( >dev-python/h2-4[${PYTHON_USEDEP}] )
+	brotli? ( dev-python/brotlipy[${PYTHON_USEDEP}] )
 "
 RDEPEND="
 
-	http2? ( <dev-python/h2-5[${PYTHON_USEDEP}] )
-	http2? ( >dev-python/h2-4[${PYTHON_USEDEP}] )
-	brotli? ( dev-python/brotlipy[${PYTHON_USEDEP}] )
 	>=dev-python/PySocks-1.5.8[${PYTHON_USEDEP}]
 	<dev-python/PySocks-2.0[${PYTHON_USEDEP}]
 	zstd? ( dev-python/zstandard[${PYTHON_USEDEP}] )
+	http2? ( <dev-python/h2-5[${PYTHON_USEDEP}] )
+	http2? ( >dev-python/h2-4[${PYTHON_USEDEP}] )
+	brotli? ( dev-python/brotlipy[${PYTHON_USEDEP}] )
 "
 BDEPEND="dev-python/hatch-vcs[${PYTHON_USEDEP}]
 "
@@ -35,3 +35,9 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/urllib3-2.6.3"
+
+src_prepare() {
+	default
+	sed -i -e '/Free Threading/d' pyproject.toml || die
+}
+
