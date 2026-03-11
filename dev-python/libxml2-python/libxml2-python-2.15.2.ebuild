@@ -12,11 +12,11 @@ SLOT="2"
 KEYWORDS="*"
 IUSE="+icu +lzma readline static-libs"
 RDEPEND="=dev-libs/libxml2-2.15.2:=[lzma?,icu?,readline?,static-libs?]
-	
+	!<dev-python/libxml2-python-2.15.0
 "
 DEPEND="${RDEPEND}
 	app-doc/doxygen
-	
+	!<dev-python/libxml2-python-2.15.0
 "
 S="${WORKDIR}/libxml2-2.15.2"
 src_prepare() {
