@@ -19,10 +19,10 @@ BDEPEND="
 	>=dev-python/setuptools-rust-0.12.1[${PYTHON_USEDEP}]
 "
 RDEPEND="
-	dev-python/ipaddress[${PYTHON_USEDEP}]
-	idna? ( >=dev-python/idna-2.1[${PYTHON_USEDEP}] )
 	>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}]
 	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
+	dev-python/ipaddress[${PYTHON_USEDEP}]
+	idna? ( >=dev-python/idna-2.1[${PYTHON_USEDEP}] )
 "
 DEPEND="virtual/rust
 	
@@ -36,6 +36,10 @@ src_unpack() {
 	else
 	  cargo_src_unpack
 	fi
+}
+python_install() {
+	distutils-r1_python_install
+	rm -r "${D}$(python_get_sitedir)"/tests || die
 }
 
 
