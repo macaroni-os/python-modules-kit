@@ -39,7 +39,10 @@ src_unpack() {
 }
 python_install() {
 	distutils-r1_python_install
-	rm -r "${D}$(python_get_sitedir)"/tests || die
+	if [ -e "${D}$(python_get_sitedir)/tests" ] ; then
+		einfo "Removing $(python_get_sitedir)/tests directory..."
+		rm -r "${D}$(python_get_sitedir)"/tests || die
+	fi
 }
 
 
