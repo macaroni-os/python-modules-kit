@@ -37,6 +37,10 @@ src_unpack() {
 	  cargo_src_unpack
 	fi
 }
+python_install() {
+	distutils-r1_python_install
+	rm -r "${D}$(python_get_sitedir)"/tests || die
+}
 
 
 # vim: filetype=ebuild
