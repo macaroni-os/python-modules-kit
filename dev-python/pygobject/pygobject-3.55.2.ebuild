@@ -11,6 +11,9 @@ SRC_URI="https://download.gnome.org/sources/pygobject/3.55/pygobject-3.55.2.tar.
 LICENSE="LGPL-2.1+"
 SLOT="3"
 KEYWORDS="*"
+PATCHES=(
+	"${FILESDIR}/pygobject-py3.9.patch"
+)
 IUSE="+cairo"
 BDEPEND="virtual/pkgconfig
 	
