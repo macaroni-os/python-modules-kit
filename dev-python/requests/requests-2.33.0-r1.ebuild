@@ -37,3 +37,9 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 S="${WORKDIR}/requests-2.33.0"
+
+src_prepare() {
+    sed -i -e '/^requires-python.*/d' pyproject.toml
+    sed -i -e 's|10|9|g' setup.py
+    distutils-r1_src_prepare
+}
