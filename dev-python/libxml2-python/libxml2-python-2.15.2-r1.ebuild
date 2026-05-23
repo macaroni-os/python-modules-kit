@@ -47,7 +47,7 @@ src_compile() {
 src_install() {
 	meson_src_install
 	# Remove files supplied by libxml2 library
-	rm -r "${ED}"/usr/{lib64,bin,include} || die
+	rm -r "${ED}"/usr/{$(get_libdir),bin,include} || die
 }
 
 
