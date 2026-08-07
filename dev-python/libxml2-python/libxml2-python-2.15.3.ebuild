@@ -39,6 +39,7 @@ src_configure() {
 	  -Dschematron=enabled
 	  -Dlegacy=disabled
 	)
+	python_setup
 	meson_src_configure
 	export S="${S}/python"
 	distutils-r1_src_configure
