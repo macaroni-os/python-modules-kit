@@ -68,9 +68,9 @@ S="${WORKDIR}/matplotlib-3.10.9"
 
 src_unpack() {
 	default
-	sed -i -e 's|3.10|3.9|g' meson.build pyproject.toml
 }
 src_configure() {
+	sed -i -e 's|3\.10|3\.9|g' meson.build pyproject.toml
 	# Forcing linker setup to avoid issues on
 	# linking external libagg library inside the package.
 	if tc-is-clang; then
