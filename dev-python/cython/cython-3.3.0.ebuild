@@ -15,3 +15,18 @@ LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="*"
 S="${WORKDIR}/cython-3.3.0"
+
+python_compile() {
+	# Cython bootstraps itself from .pyx sources at build time: when
+	# setuptools build_ext gets -j (passed by this kit's EAPI-7
+	# distutils-r1 eclass from MAKEOPTS), cythonize runs in parallel
+	# *threads* sharing non-thread-safe compiler state
+	# (Cython.Compiler.Options, e.g. cimport_from_pyx). This intermittently
+	# emits inconsistent C files (undeclared __pyx_v_* symbols, "redeclared"
+	# errors):  https://github.com/cython/cython/issues/7997
+	# Open and unfixed as of 3.3.0; keep the cythonize step serial until
+	# upstream ships a fix (same guard landed in kit-fixups autogen spec).
+	# Refs https://github.com/macaroni-os/mark-issues/issues/828
+	local -x PYTHONPATH=
+	distutils-r1_python_compile -j 1
+}
