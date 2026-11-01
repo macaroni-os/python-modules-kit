@@ -14,26 +14,30 @@ SRC_URI="https://files.pythonhosted.org/packages/e3/05/b17359e1cefb4f909b5e40b1b
 LICENSE=""
 SLOT="0"
 KEYWORDS="*"
+PATCHES=(
+	"$FILESDIR"/urllib3-python39-union.patch
+	"$FILESDIR"/urllib3-python39-ssl-import.patch
+)
 BDEPEND="dev-python/hatch-vcs[${PYTHON_USEDEP}]
 "
 RDEPEND="
 
+	http2? ( <dev-python/h2-5[${PYTHON_USEDEP}] )
+	http2? ( >dev-python/h2-4[${PYTHON_USEDEP}] )
 	brotli? ( dev-python/brotlipy[${PYTHON_USEDEP}] )
 	>=dev-python/PySocks-1.5.8[${PYTHON_USEDEP}]
 	<dev-python/PySocks-2.0[${PYTHON_USEDEP}]
 	zstd? ( dev-python/zstandard[${PYTHON_USEDEP}] )
-	http2? ( <dev-python/h2-5[${PYTHON_USEDEP}] )
-	http2? ( >dev-python/h2-4[${PYTHON_USEDEP}] )
 "
 DEPEND="
 
 
+	http2? ( <dev-python/h2-5[${PYTHON_USEDEP}] )
+	http2? ( >dev-python/h2-4[${PYTHON_USEDEP}] )
 	brotli? ( dev-python/brotlipy[${PYTHON_USEDEP}] )
 	>=dev-python/PySocks-1.5.8[${PYTHON_USEDEP}]
 	<dev-python/PySocks-2.0[${PYTHON_USEDEP}]
 	zstd? ( dev-python/zstandard[${PYTHON_USEDEP}] )
-	http2? ( <dev-python/h2-5[${PYTHON_USEDEP}] )
-	http2? ( >dev-python/h2-4[${PYTHON_USEDEP}] )
 "
 IUSE="brotli http2 zstd"
 S="${WORKDIR}/urllib3-2.8.0"
